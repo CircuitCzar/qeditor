@@ -1,0 +1,421 @@
+// "'"
+
+// '!'
+
+// '"'
+
+// '#'
+
+// '#)'
+
+// '(#'
+
+// '('
+
+// '(:'
+
+// '(:~'
+
+// ')'
+
+// ','
+
+// '-->'
+
+// '.'
+
+// '/'
+
+// '/>'
+
+// ':'
+
+// ':)'
+
+// ';'
+
+// '<!--'
+
+// '<![CDATA['
+
+// '<?'
+
+// '='
+
+// '>'
+
+// '?'
+
+// '?>'
+
+// '['
+
+// ']'
+
+// ']]>'
+
+// 'after'
+
+// 'allowing'
+
+// 'ancestor'
+
+// 'ancestor-or-self'
+
+// 'and'
+
+// 'as'
+
+// 'ascending'
+
+// 'at'
+
+// 'attribute'
+
+// 'base-uri'
+
+// 'before'
+
+// 'boundary-space'
+
+// 'break'
+
+// 'case'
+
+// 'cast'
+
+// 'castable'
+
+// 'catch'
+
+// 'child'
+
+// 'collation'
+
+// 'comment'
+
+// 'constraint'
+
+// 'construction'
+
+// 'context'
+
+// 'continue'
+
+// 'copy'
+
+// 'copy-namespaces'
+
+// 'count'
+
+// 'decimal-format'
+
+// 'declare'
+
+// 'default'
+
+// 'delete'
+
+// 'descendant'
+
+// 'descendant-or-self'
+
+// 'descending'
+
+// 'div'
+
+// 'document'
+
+// 'document-node'
+
+// 'element'
+
+// 'else'
+
+// 'empty'
+
+// 'empty-sequence'
+
+// 'encoding'
+
+// 'end'
+
+// 'eq'
+
+// 'every'
+
+// 'except'
+
+// 'exit'
+
+// 'external'
+
+// 'first'
+
+// 'following'
+
+// 'following-sibling'
+
+// 'for'
+
+// 'ft-option'
+
+// 'function'
+
+// 'ge'
+
+// 'group'
+
+// 'gt'
+
+// 'idiv'
+
+// 'if'
+
+// 'import'
+
+// 'in'
+
+// 'index'
+
+// 'insert'
+
+// 'instance'
+
+// 'integrity'
+
+// 'intersect'
+
+// 'into'
+
+// 'is'
+
+// 'item'
+
+// 'last'
+
+// 'lax'
+
+// 'le'
+
+// 'let'
+
+// 'loop'
+
+// 'lt'
+
+// 'mod'
+
+// 'modify'
+
+// 'module'
+
+// 'namespace'
+
+// 'namespace-node'
+
+// 'ne'
+
+// 'node'
+
+// 'nodes'
+
+// 'only'
+
+// 'option'
+
+// 'or'
+
+// 'order'
+
+// 'ordered'
+
+// 'ordering'
+
+// 'parent'
+
+// 'preceding'
+
+// 'preceding-sibling'
+
+// 'processing-instruction'
+
+// 'rename'
+
+// 'replace'
+
+// 'return'
+
+// 'returning'
+
+// 'revalidation'
+
+// 'satisfies'
+
+// 'schema'
+
+// 'schema-attribute'
+
+// 'schema-element'
+
+// 'score'
+
+// 'self'
+
+// 'sliding'
+
+// 'some'
+
+// 'stable'
+
+// 'start'
+
+// 'strict'
+
+// 'switch'
+
+// 'text'
+
+// 'to'
+
+// 'treat'
+
+// 'try'
+
+// 'tumbling'
+
+// 'type'
+
+// 'typeswitch'
+
+// 'union'
+
+// 'unordered'
+
+// 'updating'
+
+// 'validate'
+
+// 'value'
+
+// 'variable'
+
+// 'version'
+
+// 'where'
+
+// 'while'
+
+// 'with'
+
+// 'xquery'
+
+// '{'
+
+// '{{'
+
+// '|'
+
+// '}'
+
+// '}}'
+
+// Annotation
+
+// AposAttrContentChar
+
+// AposChar
+
+// AttrTest
+
+// CDataSectionContents
+
+// CDataSectionContents | EOF | ']]>'
+
+// CharRef
+
+// CommentContents
+
+// CommentContents | EOF | '(:' | ':)'
+
+// DecimalLiteral
+
+// DirCommentContents
+
+// DirCommentContents | EOF | '-->'
+
+// DirPIContents
+
+// DirPIContents | EOF | '?' | '?>'
+
+// DocCommentContents
+
+// DocTag
+
+// DocTag | DocCommentContents | EOF | '(:' | ':)'
+
+// DoubleLiteral
+
+// EOF
+
+// EQName^Token
+
+// EQName^Token | S^WS | 'after' | 'allowing' | 'ancestor' | 'ancestor-or-self' |
+
+// ElementContentChar
+
+// EndTag
+
+// EscapeApos
+
+// EscapeQuot
+
+// Get string behaviour
+
+// Get xml behaviour
+
+// IntegerLiteral
+
+// ModuleDecl
+
+// ModuleDecl | Annotation | OptionDecl | Operator | Variable | Tag | AttrTest |
+
+// NCName^Token
+
+// NCName^Token | S^WS | 'after' | 'allowing' | 'ancestor' | 'ancestor-or-self' |
+
+// Operator
+
+// OptionDecl
+
+// PragmaContents
+
+// PragmaContents | EOF | '#' | '#)'
+
+// PredefinedEntityRef
+
+// PredefinedEntityRef | EscapeApos | AposAttrContentChar | CharRef | EOF | "'" |
+
+// PredefinedEntityRef | EscapeApos | AposChar | CharRef | EOF | "'"
+
+// PredefinedEntityRef | EscapeQuot | QuotAttrContentChar | CharRef | EOF | '"' |
+
+// PredefinedEntityRef | EscapeQuot | QuotChar | CharRef | EOF | '"'
+
+// QName
+
+// QName | S^WS | EOF | '"' | "'" | '/>' | '=' | '>'
+
+// QuotAttrContentChar
+
+// QuotChar
+
+// Tag
+
+// Tag | EndTag | PredefinedEntityRef | ElementContentChar | CharRef | EOF |
+
+// Variable
+
+// Wildcard
+
+// lineCommentRegionStart

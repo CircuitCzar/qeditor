@@ -1,0 +1,89 @@
+/*optional*/
+
+// "module" as dependencies, to provide CommonJS compatibility.
+
+// <control>
+
+// BULLET
+
+// Because "require", "exports" and "module" aren't actual
+
+// But for all other dependencies, we can just go ahead and
+
+// Carriage return
+
+// Collapse insert range.
+
+// DAGGER
+
+// DOUBLE DAGGER
+
+// DOUBLE LOW-9 QUOTATION MARK
+
+// EM DASH
+
+// EN DASH
+
+// ES6 symbol
+
+// EURO SIGN
+
+// HORIZONTAL ELLIPSIS
+
+// If there is no dependencies, we inject "require", "exports" and
+
+// LATIN CAPITAL LETTER S WITH CARON
+
+// LATIN CAPITAL LETTER Y WITH DIAERESIS
+
+// LATIN CAPITAL LETTER Z WITH CARON
+
+// LATIN CAPITAL LIGATURE OE
+
+// LATIN SMALL LETTER F WITH HOOK
+
+// LATIN SMALL LETTER S WITH CARON
+
+// LATIN SMALL LETTER Z WITH CARON
+
+// LATIN SMALL LIGATURE OE
+
+// LEFT DOUBLE QUOTATION MARK
+
+// LEFT SINGLE QUOTATION MARK
+
+// MODIFIER LETTER CIRCUMFLEX ACCENT
+
+// PER MILLE SIGN
+
+// REPLACEMENT CHARACTER
+
+// RIGHT DOUBLE QUOTATION MARK
+
+// RIGHT SINGLE QUOTATION MARK
+
+// SINGLE LEFT-POINTING ANGLE QUOTATION MARK
+
+// SINGLE LOW-9 QUOTATION MARK
+
+// SINGLE RIGHT-POINTING ANGLE QUOTATION MARK
+
+// SMALL TILDE
+
+// TODO quirks mode
+
+// TRADE MARK SIGN
+
+// dependencies, we must handle them seperately.
+
+// normalize plugin requires
+
+// normalize relative requires
+
+// param 1 is datavars:
+
+// prevent infinite loop on broken modules
+
+// require them.
+
+//happens when one is a string literal and the other isn't

@@ -1,0 +1,108 @@
+/* first element is required */
+
+/* length is required */
+
+/*, channel: "ws"*/
+
+/*, options*/
+
+/*else {
+                            values.push(new PropertyValue(valueParts, valueParts[0].line, valueParts[0].col));
+                            valueParts = [];
+                        }*/
+
+// "module" as dependencies, to provide CommonJS compatibility.
+
+// = [];
+
+// Because "require", "exports" and "module" aren't actual
+
+// But for all other dependencies, we can just go ahead and
+
+// Collapse insert range.
+
+// If there is no dependencies, we inject "require", "exports" and
+
+// URI
+
+// always report parsing errors as errors
+
+// bad character
+
+// bad escape sequence.
+
+// blank is warning
+
+// broken!
+
+// by default, everything is a warning
+
+// delimiter found.
+
+// dependencies, we must handle them seperately.
+
+// dimension
+
+// double-quoted string
+
+// explicit error
+
+// explicit warning
+
+// false is ignore
+
+// for error recovery in _readDeclarations()
+
+// get the last token
+
+// hexcolor
+
+// hsl()
+
+// hsla() color with percentages
+
+// https    ://perishablepress.com/wrapping-content/
+
+// https    ://www.w3.org/TR/css3-multicol/
+
+// integer
+
+// jshint ignore:line
+
+// keep track of nesting depth
+
+// named color
+
+// new prototype
+
+// normalize plugin requires
+
+// normalize relative requires
+
+// number
+
+// percentage
+
+// premature EOF after backslash
+
+// prevent infinite loop on broken modules
+
+// require them.
+
+// rgb() color with absolute numbers
+
+// rgb() color with percentages
+
+// rgba() color with absolute numbers
+
+// rgba() color with percentages
+
+// true is error
+
+// unknown @ rule
+
+// vendor prefixed are ok
+
+// we're done
+
+//--;

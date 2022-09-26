@@ -1,0 +1,8 @@
+/*
+ * based on
+ * " Vim ABAP syntax file
+ * "    Language: SAP - ABAP/R4
+ * "    Revision: 2.1
+ * "  Maintainer: Marius Piedallu van Wyk <lailoken@gmail.com>
+ * " Last Change: 2012 Oct 23
+ */

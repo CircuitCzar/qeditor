@@ -1,0 +1,12 @@
+/*
+* Folding mode for Cabal files (Haskell): allow folding each seaction, including
+* the initial general section.
+*/
+
+/**
+ * Haskell Cabal files highlighter (https://www.haskell.org/cabal/users-guide/developing-packages.html)
+ **/
+
+/**
+* Haskell Cabal files mode (https://www.haskell.org/cabal/users-guide/developing-packages.html)
+**/

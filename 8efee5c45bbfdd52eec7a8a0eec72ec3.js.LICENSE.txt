@@ -1,0 +1,4495 @@
+// "'"
+
+// "module" as dependencies, to provide CommonJS compatibility.
+
+// '!'
+
+// '!='
+
+// '"'
+
+// '"' | "'"
+
+// '#'
+
+// '#)'
+
+// '$$'
+
+// '$'
+
+// '%'
+
+// '(#'
+
+// '('
+
+// '(' ')'
+
+// '(:'
+
+// '(:~'
+
+// ')'
+
+// '*'
+
+// '+'
+
+// ','
+
+// '-'
+
+// '-->'
+
+// '.'
+
+// '..'
+
+// '/'
+
+// '//'
+
+// '/>'
+
+// ':'
+
+// ':)'
+
+// '::'
+
+// ':='
+
+// ';'
+
+// '<!--'
+
+// '<![CDATA['
+
+// '<'
+
+// '</'
+
+// '<<'
+
+// '<='
+
+// '<?'
+
+// '='
+
+// '>'
+
+// '>='
+
+// '>>'
+
+// '?'
+
+// '?>'
+
+// '@'
+
+// 'NaN'
+
+// '['
+
+// '[' ']'
+
+// ']'
+
+// ']]>'
+
+// 'after'
+
+// 'after' '#'
+
+// 'after' '('
+
+// 'after' ':'
+
+// 'all'
+
+// 'allowing'
+
+// 'allowing' '#'
+
+// 'allowing' '('
+
+// 'allowing' ':'
+
+// 'ancestor'
+
+// 'ancestor' '#'
+
+// 'ancestor' '('
+
+// 'ancestor' ':'
+
+// 'ancestor' '::'
+
+// 'ancestor-or-self'
+
+// 'ancestor-or-self' '#'
+
+// 'ancestor-or-self' '('
+
+// 'ancestor-or-self' ':'
+
+// 'ancestor-or-self' '::'
+
+// 'and'
+
+// 'and' '#'
+
+// 'and' '('
+
+// 'and' ':'
+
+// 'any'
+
+// 'append'
+
+// 'append' '#'
+
+// 'append' '$$'
+
+// 'append' '$'
+
+// 'append' '%'
+
+// 'append' '(#'
+
+// 'append' '('
+
+// 'append' '+'
+
+// 'append' '-'
+
+// 'append' '/'
+
+// 'append' '//'
+
+// 'append' ':'
+
+// 'append' '<!--'
+
+// 'append' '<'
+
+// 'append' '<?'
+
+// 'append' '['
+
+// 'append' 'after'
+
+// 'append' 'allowing'
+
+// 'append' 'ancestor'
+
+// 'append' 'ancestor-or-self'
+
+// 'append' 'and'
+
+// 'append' 'append'
+
+// 'append' 'array'
+
+// 'append' 'as'
+
+// 'append' 'ascending'
+
+// 'append' 'at'
+
+// 'append' 'attribute'
+
+// 'append' 'base-uri'
+
+// 'append' 'before'
+
+// 'append' 'boundary-space'
+
+// 'append' 'break'
+
+// 'append' 'case'
+
+// 'append' 'cast'
+
+// 'append' 'castable'
+
+// 'append' 'catch'
+
+// 'append' 'child'
+
+// 'append' 'collation'
+
+// 'append' 'comment'
+
+// 'append' 'constraint'
+
+// 'append' 'construction'
+
+// 'append' 'context'
+
+// 'append' 'continue'
+
+// 'append' 'copy'
+
+// 'append' 'copy-namespaces'
+
+// 'append' 'count'
+
+// 'append' 'decimal-format'
+
+// 'append' 'declare'
+
+// 'append' 'default'
+
+// 'append' 'delete'
+
+// 'append' 'descendant'
+
+// 'append' 'descendant-or-self'
+
+// 'append' 'descending'
+
+// 'append' 'div'
+
+// 'append' 'document'
+
+// 'append' 'document-node'
+
+// 'append' 'element'
+
+// 'append' 'else'
+
+// 'append' 'empty'
+
+// 'append' 'empty-sequence'
+
+// 'append' 'encoding'
+
+// 'append' 'end'
+
+// 'append' 'eq'
+
+// 'append' 'every'
+
+// 'append' 'except'
+
+// 'append' 'exit'
+
+// 'append' 'external'
+
+// 'append' 'false'
+
+// 'append' 'first'
+
+// 'append' 'following'
+
+// 'append' 'following-sibling'
+
+// 'append' 'for'
+
+// 'append' 'from'
+
+// 'append' 'ft-option'
+
+// 'append' 'function'
+
+// 'append' 'ge'
+
+// 'append' 'group'
+
+// 'append' 'gt'
+
+// 'append' 'idiv'
+
+// 'append' 'if'
+
+// 'append' 'import'
+
+// 'append' 'in'
+
+// 'append' 'index'
+
+// 'append' 'insert'
+
+// 'append' 'instance'
+
+// 'append' 'integrity'
+
+// 'append' 'intersect'
+
+// 'append' 'into'
+
+// 'append' 'is'
+
+// 'append' 'item'
+
+// 'append' 'json'
+
+// 'append' 'json-item'
+
+// 'append' 'jsoniq'
+
+// 'append' 'last'
+
+// 'append' 'lax'
+
+// 'append' 'le'
+
+// 'append' 'let'
+
+// 'append' 'loop'
+
+// 'append' 'lt'
+
+// 'append' 'mod'
+
+// 'append' 'modify'
+
+// 'append' 'module'
+
+// 'append' 'namespace'
+
+// 'append' 'namespace-node'
+
+// 'append' 'ne'
+
+// 'append' 'node'
+
+// 'append' 'nodes'
+
+// 'append' 'not'
+
+// 'append' 'null'
+
+// 'append' 'object'
+
+// 'append' 'only'
+
+// 'append' 'option'
+
+// 'append' 'or'
+
+// 'append' 'order'
+
+// 'append' 'ordered'
+
+// 'append' 'ordering'
+
+// 'append' 'parent'
+
+// 'append' 'preceding'
+
+// 'append' 'preceding-sibling'
+
+// 'append' 'processing-instruction'
+
+// 'append' 'rename'
+
+// 'append' 'replace'
+
+// 'append' 'return'
+
+// 'append' 'returning'
+
+// 'append' 'revalidation'
+
+// 'append' 'satisfies'
+
+// 'append' 'schema'
+
+// 'append' 'schema-attribute'
+
+// 'append' 'schema-element'
+
+// 'append' 'score'
+
+// 'append' 'select'
+
+// 'append' 'self'
+
+// 'append' 'sliding'
+
+// 'append' 'some'
+
+// 'append' 'stable'
+
+// 'append' 'start'
+
+// 'append' 'strict'
+
+// 'append' 'structured-item'
+
+// 'append' 'switch'
+
+// 'append' 'text'
+
+// 'append' 'to'
+
+// 'append' 'treat'
+
+// 'append' 'true'
+
+// 'append' 'try'
+
+// 'append' 'tumbling'
+
+// 'append' 'type'
+
+// 'append' 'typeswitch'
+
+// 'append' 'union'
+
+// 'append' 'unordered'
+
+// 'append' 'updating'
+
+// 'append' 'validate'
+
+// 'append' 'value'
+
+// 'append' 'variable'
+
+// 'append' 'version'
+
+// 'append' 'where'
+
+// 'append' 'while'
+
+// 'append' 'with'
+
+// 'append' '{'
+
+// 'append' '{|'
+
+// 'append' DecimalLiteral
+
+// 'append' DoubleLiteral
+
+// 'append' EQName^Token
+
+// 'append' IntegerLiteral
+
+// 'append' StringLiteral
+
+// 'array'
+
+// 'array' '#'
+
+// 'array' '('
+
+// 'as'
+
+// 'as' '#'
+
+// 'as' '('
+
+// 'as' ':'
+
+// 'ascending'
+
+// 'ascending' '#'
+
+// 'ascending' '('
+
+// 'ascending' ':'
+
+// 'at'
+
+// 'at' '#'
+
+// 'at' '('
+
+// 'at' ':'
+
+// 'attribute'
+
+// 'attribute' '#'
+
+// 'attribute' '('
+
+// 'attribute' ':'
+
+// 'attribute' '::'
+
+// 'attribute' 'allowing'
+
+// 'attribute' 'ancestor'
+
+// 'attribute' 'ancestor-or-self'
+
+// 'attribute' 'append'
+
+// 'attribute' 'array'
+
+// 'attribute' 'attribute'
+
+// 'attribute' 'base-uri'
+
+// 'attribute' 'boundary-space'
+
+// 'attribute' 'break'
+
+// 'attribute' 'catch'
+
+// 'attribute' 'child'
+
+// 'attribute' 'comment'
+
+// 'attribute' 'constraint'
+
+// 'attribute' 'construction'
+
+// 'attribute' 'context'
+
+// 'attribute' 'continue'
+
+// 'attribute' 'copy'
+
+// 'attribute' 'copy-namespaces'
+
+// 'attribute' 'decimal-format'
+
+// 'attribute' 'declare'
+
+// 'attribute' 'delete'
+
+// 'attribute' 'descendant'
+
+// 'attribute' 'descendant-or-self'
+
+// 'attribute' 'document'
+
+// 'attribute' 'document-node'
+
+// 'attribute' 'element'
+
+// 'attribute' 'empty-sequence'
+
+// 'attribute' 'encoding'
+
+// 'attribute' 'every'
+
+// 'attribute' 'exit'
+
+// 'attribute' 'external'
+
+// 'attribute' 'false'
+
+// 'attribute' 'first'
+
+// 'attribute' 'following'
+
+// 'attribute' 'following-sibling'
+
+// 'attribute' 'from'
+
+// 'attribute' 'ft-option'
+
+// 'attribute' 'function'
+
+// 'attribute' 'if'
+
+// 'attribute' 'import'
+
+// 'attribute' 'in'
+
+// 'attribute' 'index'
+
+// 'attribute' 'insert'
+
+// 'attribute' 'integrity'
+
+// 'attribute' 'item'
+
+// 'attribute' 'json'
+
+// 'attribute' 'json-item'
+
+// 'attribute' 'jsoniq'
+
+// 'attribute' 'last'
+
+// 'attribute' 'lax'
+
+// 'attribute' 'loop'
+
+// 'attribute' 'module'
+
+// 'attribute' 'namespace'
+
+// 'attribute' 'namespace-node'
+
+// 'attribute' 'node'
+
+// 'attribute' 'nodes'
+
+// 'attribute' 'null'
+
+// 'attribute' 'object'
+
+// 'attribute' 'option'
+
+// 'attribute' 'ordered'
+
+// 'attribute' 'ordering'
+
+// 'attribute' 'parent'
+
+// 'attribute' 'preceding'
+
+// 'attribute' 'preceding-sibling'
+
+// 'attribute' 'processing-instruction'
+
+// 'attribute' 'rename'
+
+// 'attribute' 'replace'
+
+// 'attribute' 'returning'
+
+// 'attribute' 'revalidation'
+
+// 'attribute' 'schema'
+
+// 'attribute' 'schema-attribute'
+
+// 'attribute' 'schema-element'
+
+// 'attribute' 'score'
+
+// 'attribute' 'select'
+
+// 'attribute' 'self'
+
+// 'attribute' 'sliding'
+
+// 'attribute' 'some'
+
+// 'attribute' 'strict'
+
+// 'attribute' 'structured-item'
+
+// 'attribute' 'switch'
+
+// 'attribute' 'text'
+
+// 'attribute' 'true'
+
+// 'attribute' 'try'
+
+// 'attribute' 'tumbling'
+
+// 'attribute' 'type'
+
+// 'attribute' 'typeswitch'
+
+// 'attribute' 'unordered'
+
+// 'attribute' 'updating'
+
+// 'attribute' 'validate'
+
+// 'attribute' 'value'
+
+// 'attribute' 'variable'
+
+// 'attribute' 'version'
+
+// 'attribute' 'while'
+
+// 'attribute' 'xquery'
+
+// 'attribute' '{'
+
+// 'attribute' EQName^Token
+
+// 'base-uri'
+
+// 'base-uri' '#'
+
+// 'base-uri' '('
+
+// 'base-uri' ':'
+
+// 'before'
+
+// 'before' '#'
+
+// 'before' '('
+
+// 'before' ':'
+
+// 'boundary-space'
+
+// 'boundary-space' '#'
+
+// 'boundary-space' '('
+
+// 'boundary-space' ':'
+
+// 'break'
+
+// 'break' '#'
+
+// 'break' '('
+
+// 'break' ':'
+
+// 'by'
+
+// 'case'
+
+// 'case' '#'
+
+// 'case' '('
+
+// 'case' ':'
+
+// 'cast'
+
+// 'cast' '#'
+
+// 'cast' '('
+
+// 'cast' ':'
+
+// 'castable'
+
+// 'castable' '#'
+
+// 'castable' '('
+
+// 'castable' ':'
+
+// 'catch'
+
+// 'catch' '#'
+
+// 'catch' '('
+
+// 'catch' ':'
+
+// 'check'
+
+// 'child'
+
+// 'child' '#'
+
+// 'child' '('
+
+// 'child' ':'
+
+// 'child' '::'
+
+// 'collation'
+
+// 'collation' '#'
+
+// 'collation' '('
+
+// 'collation' ':'
+
+// 'collection'
+
+// 'comment'
+
+// 'comment' '#'
+
+// 'comment' '('
+
+// 'comment' ':'
+
+// 'comment' '{'
+
+// 'constraint'
+
+// 'constraint' '#'
+
+// 'constraint' '('
+
+// 'constraint' ':'
+
+// 'construction'
+
+// 'construction' '#'
+
+// 'construction' '('
+
+// 'construction' ':'
+
+// 'contains'
+
+// 'content'
+
+// 'context'
+
+// 'context' '#'
+
+// 'context' '('
+
+// 'context' ':'
+
+// 'continue'
+
+// 'continue' '#'
+
+// 'continue' '('
+
+// 'continue' ':'
+
+// 'copy'
+
+// 'copy' '#'
+
+// 'copy' '$'
+
+// 'copy' '('
+
+// 'copy' ':'
+
+// 'copy-namespaces'
+
+// 'copy-namespaces' '#'
+
+// 'copy-namespaces' '('
+
+// 'copy-namespaces' ':'
+
+// 'count'
+
+// 'count' '#'
+
+// 'count' '('
+
+// 'count' ':'
+
+// 'decimal-format'
+
+// 'decimal-format' '#'
+
+// 'decimal-format' '('
+
+// 'decimal-format' ':'
+
+// 'decimal-separator'
+
+// 'declare'
+
+// 'declare' '#'
+
+// 'declare' '('
+
+// 'declare' ':'
+
+// 'declare' 'boundary-space'
+
+// 'declare' 'construction'
+
+// 'declare' 'context'
+
+// 'declare' 'ft-option'
+
+// 'declare' 'namespace'
+
+// 'declare' 'option'
+
+// 'declare' 'ordering'
+
+// 'declare' 'revalidation'
+
+// 'default'
+
+// 'default' '#'
+
+// 'default' '('
+
+// 'default' ':'
+
+// 'delete'
+
+// 'delete' '#'
+
+// 'delete' '$$'
+
+// 'delete' '$'
+
+// 'delete' '%'
+
+// 'delete' '('
+
+// 'delete' ':'
+
+// 'delete' '<!--'
+
+// 'delete' '<'
+
+// 'delete' '<?'
+
+// 'delete' '['
+
+// 'delete' 'after'
+
+// 'delete' 'allowing'
+
+// 'delete' 'ancestor'
+
+// 'delete' 'ancestor-or-self'
+
+// 'delete' 'and'
+
+// 'delete' 'append'
+
+// 'delete' 'array'
+
+// 'delete' 'as'
+
+// 'delete' 'ascending'
+
+// 'delete' 'at'
+
+// 'delete' 'attribute'
+
+// 'delete' 'base-uri'
+
+// 'delete' 'before'
+
+// 'delete' 'boundary-space'
+
+// 'delete' 'break'
+
+// 'delete' 'case'
+
+// 'delete' 'cast'
+
+// 'delete' 'castable'
+
+// 'delete' 'catch'
+
+// 'delete' 'child'
+
+// 'delete' 'collation'
+
+// 'delete' 'comment'
+
+// 'delete' 'constraint'
+
+// 'delete' 'construction'
+
+// 'delete' 'context'
+
+// 'delete' 'continue'
+
+// 'delete' 'copy'
+
+// 'delete' 'copy-namespaces'
+
+// 'delete' 'count'
+
+// 'delete' 'decimal-format'
+
+// 'delete' 'declare'
+
+// 'delete' 'default'
+
+// 'delete' 'delete'
+
+// 'delete' 'descendant'
+
+// 'delete' 'descendant-or-self'
+
+// 'delete' 'descending'
+
+// 'delete' 'div'
+
+// 'delete' 'document'
+
+// 'delete' 'document-node'
+
+// 'delete' 'element'
+
+// 'delete' 'else'
+
+// 'delete' 'empty'
+
+// 'delete' 'empty-sequence'
+
+// 'delete' 'encoding'
+
+// 'delete' 'end'
+
+// 'delete' 'eq'
+
+// 'delete' 'every'
+
+// 'delete' 'except'
+
+// 'delete' 'exit'
+
+// 'delete' 'external'
+
+// 'delete' 'false'
+
+// 'delete' 'first'
+
+// 'delete' 'following'
+
+// 'delete' 'following-sibling'
+
+// 'delete' 'for'
+
+// 'delete' 'from'
+
+// 'delete' 'ft-option'
+
+// 'delete' 'function'
+
+// 'delete' 'ge'
+
+// 'delete' 'group'
+
+// 'delete' 'gt'
+
+// 'delete' 'idiv'
+
+// 'delete' 'if'
+
+// 'delete' 'import'
+
+// 'delete' 'in'
+
+// 'delete' 'index'
+
+// 'delete' 'insert'
+
+// 'delete' 'instance'
+
+// 'delete' 'integrity'
+
+// 'delete' 'intersect'
+
+// 'delete' 'into'
+
+// 'delete' 'is'
+
+// 'delete' 'item'
+
+// 'delete' 'json'
+
+// 'delete' 'json-item'
+
+// 'delete' 'jsoniq'
+
+// 'delete' 'last'
+
+// 'delete' 'lax'
+
+// 'delete' 'le'
+
+// 'delete' 'let'
+
+// 'delete' 'loop'
+
+// 'delete' 'lt'
+
+// 'delete' 'mod'
+
+// 'delete' 'modify'
+
+// 'delete' 'module'
+
+// 'delete' 'namespace'
+
+// 'delete' 'namespace-node'
+
+// 'delete' 'ne'
+
+// 'delete' 'node'
+
+// 'delete' 'nodes'
+
+// 'delete' 'null'
+
+// 'delete' 'object'
+
+// 'delete' 'only'
+
+// 'delete' 'option'
+
+// 'delete' 'or'
+
+// 'delete' 'order'
+
+// 'delete' 'ordered'
+
+// 'delete' 'ordering'
+
+// 'delete' 'parent'
+
+// 'delete' 'preceding'
+
+// 'delete' 'preceding-sibling'
+
+// 'delete' 'processing-instruction'
+
+// 'delete' 'rename'
+
+// 'delete' 'replace'
+
+// 'delete' 'return'
+
+// 'delete' 'returning'
+
+// 'delete' 'revalidation'
+
+// 'delete' 'satisfies'
+
+// 'delete' 'schema'
+
+// 'delete' 'schema-attribute'
+
+// 'delete' 'schema-element'
+
+// 'delete' 'score'
+
+// 'delete' 'select'
+
+// 'delete' 'self'
+
+// 'delete' 'sliding'
+
+// 'delete' 'some'
+
+// 'delete' 'stable'
+
+// 'delete' 'start'
+
+// 'delete' 'strict'
+
+// 'delete' 'structured-item'
+
+// 'delete' 'switch'
+
+// 'delete' 'text'
+
+// 'delete' 'to'
+
+// 'delete' 'treat'
+
+// 'delete' 'true'
+
+// 'delete' 'try'
+
+// 'delete' 'tumbling'
+
+// 'delete' 'type'
+
+// 'delete' 'typeswitch'
+
+// 'delete' 'union'
+
+// 'delete' 'unordered'
+
+// 'delete' 'updating'
+
+// 'delete' 'validate'
+
+// 'delete' 'value'
+
+// 'delete' 'variable'
+
+// 'delete' 'version'
+
+// 'delete' 'where'
+
+// 'delete' 'while'
+
+// 'delete' 'with'
+
+// 'delete' '{'
+
+// 'delete' '{|'
+
+// 'delete' DecimalLiteral
+
+// 'delete' DoubleLiteral
+
+// 'delete' EQName^Token
+
+// 'delete' IntegerLiteral
+
+// 'delete' StringLiteral
+
+// 'descendant'
+
+// 'descendant' '#'
+
+// 'descendant' '('
+
+// 'descendant' ':'
+
+// 'descendant' '::'
+
+// 'descendant-or-self'
+
+// 'descendant-or-self' '#'
+
+// 'descendant-or-self' '('
+
+// 'descendant-or-self' ':'
+
+// 'descendant-or-self' '::'
+
+// 'descending'
+
+// 'descending' '#'
+
+// 'descending' '('
+
+// 'descending' ':'
+
+// 'diacritics'
+
+// 'different'
+
+// 'digit'
+
+// 'distance'
+
+// 'div'
+
+// 'div' '#'
+
+// 'div' '('
+
+// 'div' ':'
+
+// 'document'
+
+// 'document' '#'
+
+// 'document' '('
+
+// 'document' ':'
+
+// 'document' '{'
+
+// 'document-node'
+
+// 'document-node' '#'
+
+// 'document-node' '('
+
+// 'document-node' ':'
+
+// 'element'
+
+// 'element' '#'
+
+// 'element' '('
+
+// 'element' ':'
+
+// 'element' 'allowing'
+
+// 'element' 'ancestor'
+
+// 'element' 'ancestor-or-self'
+
+// 'element' 'append'
+
+// 'element' 'array'
+
+// 'element' 'attribute'
+
+// 'element' 'base-uri'
+
+// 'element' 'boundary-space'
+
+// 'element' 'break'
+
+// 'element' 'catch'
+
+// 'element' 'child'
+
+// 'element' 'comment'
+
+// 'element' 'constraint'
+
+// 'element' 'construction'
+
+// 'element' 'context'
+
+// 'element' 'continue'
+
+// 'element' 'copy'
+
+// 'element' 'copy-namespaces'
+
+// 'element' 'decimal-format'
+
+// 'element' 'declare'
+
+// 'element' 'delete'
+
+// 'element' 'descendant'
+
+// 'element' 'descendant-or-self'
+
+// 'element' 'document'
+
+// 'element' 'document-node'
+
+// 'element' 'element'
+
+// 'element' 'empty-sequence'
+
+// 'element' 'encoding'
+
+// 'element' 'every'
+
+// 'element' 'exit'
+
+// 'element' 'external'
+
+// 'element' 'false'
+
+// 'element' 'first'
+
+// 'element' 'following'
+
+// 'element' 'following-sibling'
+
+// 'element' 'from'
+
+// 'element' 'ft-option'
+
+// 'element' 'function'
+
+// 'element' 'if'
+
+// 'element' 'import'
+
+// 'element' 'in'
+
+// 'element' 'index'
+
+// 'element' 'insert'
+
+// 'element' 'integrity'
+
+// 'element' 'item'
+
+// 'element' 'json'
+
+// 'element' 'json-item'
+
+// 'element' 'jsoniq'
+
+// 'element' 'last'
+
+// 'element' 'lax'
+
+// 'element' 'loop'
+
+// 'element' 'module'
+
+// 'element' 'namespace'
+
+// 'element' 'namespace-node'
+
+// 'element' 'node'
+
+// 'element' 'nodes'
+
+// 'element' 'null'
+
+// 'element' 'object'
+
+// 'element' 'option'
+
+// 'element' 'ordered'
+
+// 'element' 'ordering'
+
+// 'element' 'parent'
+
+// 'element' 'preceding'
+
+// 'element' 'preceding-sibling'
+
+// 'element' 'processing-instruction'
+
+// 'element' 'rename'
+
+// 'element' 'replace'
+
+// 'element' 'returning'
+
+// 'element' 'revalidation'
+
+// 'element' 'schema'
+
+// 'element' 'schema-attribute'
+
+// 'element' 'schema-element'
+
+// 'element' 'score'
+
+// 'element' 'select'
+
+// 'element' 'self'
+
+// 'element' 'sliding'
+
+// 'element' 'some'
+
+// 'element' 'strict'
+
+// 'element' 'structured-item'
+
+// 'element' 'switch'
+
+// 'element' 'text'
+
+// 'element' 'true'
+
+// 'element' 'try'
+
+// 'element' 'tumbling'
+
+// 'element' 'type'
+
+// 'element' 'typeswitch'
+
+// 'element' 'unordered'
+
+// 'element' 'updating'
+
+// 'element' 'validate'
+
+// 'element' 'value'
+
+// 'element' 'variable'
+
+// 'element' 'version'
+
+// 'element' 'while'
+
+// 'element' 'xquery'
+
+// 'element' '{'
+
+// 'element' EQName^Token
+
+// 'else'
+
+// 'else' '#'
+
+// 'else' '('
+
+// 'else' ':'
+
+// 'empty'
+
+// 'empty' '#'
+
+// 'empty' '('
+
+// 'empty' ':'
+
+// 'empty-sequence'
+
+// 'empty-sequence' '#'
+
+// 'empty-sequence' '('
+
+// 'empty-sequence' ':'
+
+// 'encoding'
+
+// 'encoding' '#'
+
+// 'encoding' '('
+
+// 'encoding' ':'
+
+// 'end'
+
+// 'end' '#'
+
+// 'end' '('
+
+// 'end' ':'
+
+// 'entire'
+
+// 'eq'
+
+// 'eq' '#'
+
+// 'eq' '('
+
+// 'eq' ':'
+
+// 'every'
+
+// 'every' '#'
+
+// 'every' '$'
+
+// 'every' '('
+
+// 'every' ':'
+
+// 'exactly'
+
+// 'except'
+
+// 'except' '#'
+
+// 'except' '('
+
+// 'except' ':'
+
+// 'exit'
+
+// 'exit' '#'
+
+// 'exit' '('
+
+// 'exit' ':'
+
+// 'external'
+
+// 'external' '#'
+
+// 'external' '('
+
+// 'external' ':'
+
+// 'false'
+
+// 'false' '!'
+
+// 'false' '!='
+
+// 'false' '#'
+
+// 'false' '('
+
+// 'false' ')'
+
+// 'false' '*'
+
+// 'false' '+'
+
+// 'false' ','
+
+// 'false' '-'
+
+// 'false' '.'
+
+// 'false' '/'
+
+// 'false' '//'
+
+// 'false' ':'
+
+// 'false' ';'
+
+// 'false' '<'
+
+// 'false' '<<'
+
+// 'false' '<='
+
+// 'false' '='
+
+// 'false' '>'
+
+// 'false' '>='
+
+// 'false' '>>'
+
+// 'false' '['
+
+// 'false' ']'
+
+// 'false' 'after'
+
+// 'false' 'and'
+
+// 'false' 'as'
+
+// 'false' 'ascending'
+
+// 'false' 'at'
+
+// 'false' 'before'
+
+// 'false' 'by'
+
+// 'false' 'case'
+
+// 'false' 'cast'
+
+// 'false' 'castable'
+
+// 'false' 'collation'
+
+// 'false' 'contains'
+
+// 'false' 'count'
+
+// 'false' 'default'
+
+// 'false' 'descending'
+
+// 'false' 'div'
+
+// 'false' 'else'
+
+// 'false' 'empty'
+
+// 'false' 'end'
+
+// 'false' 'eq'
+
+// 'false' 'except'
+
+// 'false' 'for'
+
+// 'false' 'ge'
+
+// 'false' 'group'
+
+// 'false' 'gt'
+
+// 'false' 'idiv'
+
+// 'false' 'instance'
+
+// 'false' 'intersect'
+
+// 'false' 'into'
+
+// 'false' 'is'
+
+// 'false' 'le'
+
+// 'false' 'let'
+
+// 'false' 'lt'
+
+// 'false' 'mod'
+
+// 'false' 'modify'
+
+// 'false' 'ne'
+
+// 'false' 'only'
+
+// 'false' 'or'
+
+// 'false' 'order'
+
+// 'false' 'paragraphs'
+
+// 'false' 'return'
+
+// 'false' 'satisfies'
+
+// 'false' 'sentences'
+
+// 'false' 'stable'
+
+// 'false' 'start'
+
+// 'false' 'times'
+
+// 'false' 'to'
+
+// 'false' 'treat'
+
+// 'false' 'union'
+
+// 'false' 'where'
+
+// 'false' 'with'
+
+// 'false' 'words'
+
+// 'false' '|'
+
+// 'false' '||'
+
+// 'false' '|}'
+
+// 'false' '}'
+
+// 'false' EOF
+
+// 'first'
+
+// 'first' '#'
+
+// 'first' '('
+
+// 'first' ':'
+
+// 'following'
+
+// 'following' '#'
+
+// 'following' '('
+
+// 'following' ':'
+
+// 'following' '::'
+
+// 'following-sibling'
+
+// 'following-sibling' '#'
+
+// 'following-sibling' '('
+
+// 'following-sibling' ':'
+
+// 'following-sibling' '::'
+
+// 'for'
+
+// 'for' '#'
+
+// 'for' '$'
+
+// 'for' '('
+
+// 'for' ':'
+
+// 'for' 'sliding'
+
+// 'for' 'tumbling'
+
+// 'foreach'
+
+// 'foreign'
+
+// 'from'
+
+// 'from' '#'
+
+// 'from' '('
+
+// 'from' ':'
+
+// 'ft-option'
+
+// 'ft-option' '#'
+
+// 'ft-option' '('
+
+// 'ft-option' ':'
+
+// 'ftand'
+
+// 'ftor'
+
+// 'function'
+
+// 'function' '#'
+
+// 'function' '('
+
+// 'function' ':'
+
+// 'ge'
+
+// 'ge' '#'
+
+// 'ge' '('
+
+// 'ge' ':'
+
+// 'greatest'
+
+// 'group'
+
+// 'group' '#'
+
+// 'group' '('
+
+// 'group' ':'
+
+// 'grouping-separator'
+
+// 'gt'
+
+// 'gt' '#'
+
+// 'gt' '('
+
+// 'gt' ':'
+
+// 'idiv'
+
+// 'idiv' '#'
+
+// 'idiv' '('
+
+// 'idiv' ':'
+
+// 'if'
+
+// 'if' '#'
+
+// 'if' ':'
+
+// 'import'
+
+// 'import' '#'
+
+// 'import' '('
+
+// 'import' ':'
+
+// 'import' 'schema'
+
+// 'in'
+
+// 'in' '#'
+
+// 'in' '('
+
+// 'in' ':'
+
+// 'index'
+
+// 'index' '#'
+
+// 'index' '('
+
+// 'index' ':'
+
+// 'infinity'
+
+// 'inherit'
+
+// 'insensitive'
+
+// 'insert'
+
+// 'insert' '#'
+
+// 'insert' '$$'
+
+// 'insert' '$'
+
+// 'insert' '%'
+
+// 'insert' '(#'
+
+// 'insert' '('
+
+// 'insert' '+'
+
+// 'insert' '-'
+
+// 'insert' '/'
+
+// 'insert' '//'
+
+// 'insert' ':'
+
+// 'insert' '<!--'
+
+// 'insert' '<'
+
+// 'insert' '<?'
+
+// 'insert' '['
+
+// 'insert' 'after'
+
+// 'insert' 'allowing'
+
+// 'insert' 'ancestor'
+
+// 'insert' 'ancestor-or-self'
+
+// 'insert' 'and'
+
+// 'insert' 'append'
+
+// 'insert' 'array'
+
+// 'insert' 'as'
+
+// 'insert' 'ascending'
+
+// 'insert' 'at'
+
+// 'insert' 'attribute'
+
+// 'insert' 'base-uri'
+
+// 'insert' 'before'
+
+// 'insert' 'boundary-space'
+
+// 'insert' 'break'
+
+// 'insert' 'case'
+
+// 'insert' 'cast'
+
+// 'insert' 'castable'
+
+// 'insert' 'catch'
+
+// 'insert' 'child'
+
+// 'insert' 'collation'
+
+// 'insert' 'comment'
+
+// 'insert' 'constraint'
+
+// 'insert' 'construction'
+
+// 'insert' 'context'
+
+// 'insert' 'continue'
+
+// 'insert' 'copy'
+
+// 'insert' 'copy-namespaces'
+
+// 'insert' 'count'
+
+// 'insert' 'decimal-format'
+
+// 'insert' 'declare'
+
+// 'insert' 'default'
+
+// 'insert' 'delete'
+
+// 'insert' 'descendant'
+
+// 'insert' 'descendant-or-self'
+
+// 'insert' 'descending'
+
+// 'insert' 'div'
+
+// 'insert' 'document'
+
+// 'insert' 'document-node'
+
+// 'insert' 'element'
+
+// 'insert' 'else'
+
+// 'insert' 'empty'
+
+// 'insert' 'empty-sequence'
+
+// 'insert' 'encoding'
+
+// 'insert' 'end'
+
+// 'insert' 'eq'
+
+// 'insert' 'every'
+
+// 'insert' 'except'
+
+// 'insert' 'exit'
+
+// 'insert' 'external'
+
+// 'insert' 'false'
+
+// 'insert' 'first'
+
+// 'insert' 'following'
+
+// 'insert' 'following-sibling'
+
+// 'insert' 'for'
+
+// 'insert' 'from'
+
+// 'insert' 'ft-option'
+
+// 'insert' 'function'
+
+// 'insert' 'ge'
+
+// 'insert' 'group'
+
+// 'insert' 'gt'
+
+// 'insert' 'idiv'
+
+// 'insert' 'if'
+
+// 'insert' 'import'
+
+// 'insert' 'in'
+
+// 'insert' 'index'
+
+// 'insert' 'insert'
+
+// 'insert' 'instance'
+
+// 'insert' 'integrity'
+
+// 'insert' 'intersect'
+
+// 'insert' 'into'
+
+// 'insert' 'is'
+
+// 'insert' 'item'
+
+// 'insert' 'json'
+
+// 'insert' 'json-item'
+
+// 'insert' 'jsoniq'
+
+// 'insert' 'last'
+
+// 'insert' 'lax'
+
+// 'insert' 'le'
+
+// 'insert' 'let'
+
+// 'insert' 'loop'
+
+// 'insert' 'lt'
+
+// 'insert' 'mod'
+
+// 'insert' 'modify'
+
+// 'insert' 'module'
+
+// 'insert' 'namespace'
+
+// 'insert' 'namespace-node'
+
+// 'insert' 'ne'
+
+// 'insert' 'node'
+
+// 'insert' 'nodes'
+
+// 'insert' 'not'
+
+// 'insert' 'null'
+
+// 'insert' 'object'
+
+// 'insert' 'only'
+
+// 'insert' 'option'
+
+// 'insert' 'or'
+
+// 'insert' 'order'
+
+// 'insert' 'ordered'
+
+// 'insert' 'ordering'
+
+// 'insert' 'parent'
+
+// 'insert' 'preceding'
+
+// 'insert' 'preceding-sibling'
+
+// 'insert' 'processing-instruction'
+
+// 'insert' 'rename'
+
+// 'insert' 'replace'
+
+// 'insert' 'return'
+
+// 'insert' 'returning'
+
+// 'insert' 'revalidation'
+
+// 'insert' 'satisfies'
+
+// 'insert' 'schema'
+
+// 'insert' 'schema-attribute'
+
+// 'insert' 'schema-element'
+
+// 'insert' 'score'
+
+// 'insert' 'select'
+
+// 'insert' 'self'
+
+// 'insert' 'sliding'
+
+// 'insert' 'some'
+
+// 'insert' 'stable'
+
+// 'insert' 'start'
+
+// 'insert' 'strict'
+
+// 'insert' 'structured-item'
+
+// 'insert' 'switch'
+
+// 'insert' 'text'
+
+// 'insert' 'to'
+
+// 'insert' 'treat'
+
+// 'insert' 'true'
+
+// 'insert' 'try'
+
+// 'insert' 'tumbling'
+
+// 'insert' 'type'
+
+// 'insert' 'typeswitch'
+
+// 'insert' 'union'
+
+// 'insert' 'unordered'
+
+// 'insert' 'updating'
+
+// 'insert' 'validate'
+
+// 'insert' 'value'
+
+// 'insert' 'variable'
+
+// 'insert' 'version'
+
+// 'insert' 'where'
+
+// 'insert' 'while'
+
+// 'insert' 'with'
+
+// 'insert' '{'
+
+// 'insert' '{|'
+
+// 'insert' DecimalLiteral
+
+// 'insert' DoubleLiteral
+
+// 'insert' EQName^Token
+
+// 'insert' IntegerLiteral
+
+// 'insert' NCName^Token
+
+// 'insert' StringLiteral
+
+// 'instance'
+
+// 'instance' '#'
+
+// 'instance' '('
+
+// 'instance' ':'
+
+// 'integrity'
+
+// 'integrity' '#'
+
+// 'integrity' '('
+
+// 'integrity' ':'
+
+// 'intersect'
+
+// 'intersect' '#'
+
+// 'intersect' '('
+
+// 'intersect' ':'
+
+// 'into'
+
+// 'into' '#'
+
+// 'into' '('
+
+// 'into' ':'
+
+// 'is'
+
+// 'is' '#'
+
+// 'is' '('
+
+// 'is' ':'
+
+// 'item'
+
+// 'item' '#'
+
+// 'item' '('
+
+// 'item' ':'
+
+// 'json'
+
+// 'json' '#'
+
+// 'json' '('
+
+// 'json' ':'
+
+// 'json-item'
+
+// 'json-item' '#'
+
+// 'json-item' '('
+
+// 'jsoniq'
+
+// 'jsoniq' '#'
+
+// 'jsoniq' '('
+
+// 'jsoniq' ':'
+
+// 'key'
+
+// 'language'
+
+// 'last'
+
+// 'last' '#'
+
+// 'last' '('
+
+// 'last' ':'
+
+// 'lax'
+
+// 'lax' '#'
+
+// 'lax' '('
+
+// 'lax' ':'
+
+// 'le'
+
+// 'le' '#'
+
+// 'le' '('
+
+// 'le' ':'
+
+// 'least'
+
+// 'let'
+
+// 'let' '#'
+
+// 'let' '$'
+
+// 'let' '('
+
+// 'let' ':'
+
+// 'let' 'score'
+
+// 'loop'
+
+// 'loop' '#'
+
+// 'loop' '('
+
+// 'loop' ':'
+
+// 'lowercase'
+
+// 'lt'
+
+// 'lt' '#'
+
+// 'lt' '('
+
+// 'lt' ':'
+
+// 'minus-sign'
+
+// 'mod'
+
+// 'mod' '#'
+
+// 'mod' '('
+
+// 'mod' ':'
+
+// 'modify'
+
+// 'modify' '#'
+
+// 'modify' '('
+
+// 'modify' ':'
+
+// 'module'
+
+// 'module' '#'
+
+// 'module' '('
+
+// 'module' ':'
+
+// 'module' 'namespace'
+
+// 'most'
+
+// 'namespace'
+
+// 'namespace' '#'
+
+// 'namespace' '('
+
+// 'namespace' ':'
+
+// 'namespace' 'allowing'
+
+// 'namespace' 'ancestor'
+
+// 'namespace' 'ancestor-or-self'
+
+// 'namespace' 'append'
+
+// 'namespace' 'attribute'
+
+// 'namespace' 'base-uri'
+
+// 'namespace' 'boundary-space'
+
+// 'namespace' 'break'
+
+// 'namespace' 'catch'
+
+// 'namespace' 'child'
+
+// 'namespace' 'comment'
+
+// 'namespace' 'constraint'
+
+// 'namespace' 'construction'
+
+// 'namespace' 'context'
+
+// 'namespace' 'continue'
+
+// 'namespace' 'copy'
+
+// 'namespace' 'copy-namespaces'
+
+// 'namespace' 'decimal-format'
+
+// 'namespace' 'declare'
+
+// 'namespace' 'delete'
+
+// 'namespace' 'descendant'
+
+// 'namespace' 'descendant-or-self'
+
+// 'namespace' 'document'
+
+// 'namespace' 'document-node'
+
+// 'namespace' 'element'
+
+// 'namespace' 'empty-sequence'
+
+// 'namespace' 'encoding'
+
+// 'namespace' 'every'
+
+// 'namespace' 'exit'
+
+// 'namespace' 'external'
+
+// 'namespace' 'false'
+
+// 'namespace' 'first'
+
+// 'namespace' 'following'
+
+// 'namespace' 'following-sibling'
+
+// 'namespace' 'from'
+
+// 'namespace' 'ft-option'
+
+// 'namespace' 'function'
+
+// 'namespace' 'if'
+
+// 'namespace' 'import'
+
+// 'namespace' 'in'
+
+// 'namespace' 'index'
+
+// 'namespace' 'insert'
+
+// 'namespace' 'integrity'
+
+// 'namespace' 'item'
+
+// 'namespace' 'json'
+
+// 'namespace' 'jsoniq'
+
+// 'namespace' 'last'
+
+// 'namespace' 'lax'
+
+// 'namespace' 'loop'
+
+// 'namespace' 'module'
+
+// 'namespace' 'namespace'
+
+// 'namespace' 'namespace-node'
+
+// 'namespace' 'node'
+
+// 'namespace' 'nodes'
+
+// 'namespace' 'null'
+
+// 'namespace' 'object'
+
+// 'namespace' 'option'
+
+// 'namespace' 'ordered'
+
+// 'namespace' 'ordering'
+
+// 'namespace' 'parent'
+
+// 'namespace' 'preceding'
+
+// 'namespace' 'preceding-sibling'
+
+// 'namespace' 'processing-instruction'
+
+// 'namespace' 'rename'
+
+// 'namespace' 'replace'
+
+// 'namespace' 'returning'
+
+// 'namespace' 'revalidation'
+
+// 'namespace' 'schema'
+
+// 'namespace' 'schema-attribute'
+
+// 'namespace' 'schema-element'
+
+// 'namespace' 'score'
+
+// 'namespace' 'select'
+
+// 'namespace' 'self'
+
+// 'namespace' 'sliding'
+
+// 'namespace' 'some'
+
+// 'namespace' 'strict'
+
+// 'namespace' 'switch'
+
+// 'namespace' 'text'
+
+// 'namespace' 'true'
+
+// 'namespace' 'try'
+
+// 'namespace' 'tumbling'
+
+// 'namespace' 'type'
+
+// 'namespace' 'typeswitch'
+
+// 'namespace' 'unordered'
+
+// 'namespace' 'updating'
+
+// 'namespace' 'validate'
+
+// 'namespace' 'value'
+
+// 'namespace' 'variable'
+
+// 'namespace' 'version'
+
+// 'namespace' 'while'
+
+// 'namespace' 'xquery'
+
+// 'namespace' '{'
+
+// 'namespace' NCName^Token
+
+// 'namespace-node'
+
+// 'namespace-node' '#'
+
+// 'namespace-node' '('
+
+// 'namespace-node' ':'
+
+// 'ne'
+
+// 'ne' '#'
+
+// 'ne' '('
+
+// 'ne' ':'
+
+// 'next'
+
+// 'no'
+
+// 'no' 'stemming'
+
+// 'no' 'stop'
+
+// 'no' 'thesaurus'
+
+// 'no' 'wildcards'
+
+// 'node'
+
+// 'node' '#'
+
+// 'node' '('
+
+// 'node' ':'
+
+// 'nodes'
+
+// 'nodes' '#'
+
+// 'nodes' '('
+
+// 'nodes' ':'
+
+// 'not'
+
+// 'null'
+
+// 'null' '!'
+
+// 'null' '!='
+
+// 'null' '#'
+
+// 'null' '('
+
+// 'null' ')'
+
+// 'null' '*'
+
+// 'null' '+'
+
+// 'null' ','
+
+// 'null' '-'
+
+// 'null' '.'
+
+// 'null' '/'
+
+// 'null' '//'
+
+// 'null' ':'
+
+// 'null' ';'
+
+// 'null' '<'
+
+// 'null' '<<'
+
+// 'null' '<='
+
+// 'null' '='
+
+// 'null' '>'
+
+// 'null' '>='
+
+// 'null' '>>'
+
+// 'null' '['
+
+// 'null' ']'
+
+// 'null' 'after'
+
+// 'null' 'and'
+
+// 'null' 'as'
+
+// 'null' 'ascending'
+
+// 'null' 'at'
+
+// 'null' 'before'
+
+// 'null' 'by'
+
+// 'null' 'case'
+
+// 'null' 'cast'
+
+// 'null' 'castable'
+
+// 'null' 'collation'
+
+// 'null' 'contains'
+
+// 'null' 'count'
+
+// 'null' 'default'
+
+// 'null' 'descending'
+
+// 'null' 'div'
+
+// 'null' 'else'
+
+// 'null' 'empty'
+
+// 'null' 'end'
+
+// 'null' 'eq'
+
+// 'null' 'except'
+
+// 'null' 'for'
+
+// 'null' 'ge'
+
+// 'null' 'group'
+
+// 'null' 'gt'
+
+// 'null' 'idiv'
+
+// 'null' 'instance'
+
+// 'null' 'intersect'
+
+// 'null' 'into'
+
+// 'null' 'is'
+
+// 'null' 'le'
+
+// 'null' 'let'
+
+// 'null' 'lt'
+
+// 'null' 'mod'
+
+// 'null' 'modify'
+
+// 'null' 'ne'
+
+// 'null' 'only'
+
+// 'null' 'or'
+
+// 'null' 'order'
+
+// 'null' 'paragraphs'
+
+// 'null' 'return'
+
+// 'null' 'satisfies'
+
+// 'null' 'sentences'
+
+// 'null' 'stable'
+
+// 'null' 'start'
+
+// 'null' 'times'
+
+// 'null' 'to'
+
+// 'null' 'treat'
+
+// 'null' 'union'
+
+// 'null' 'where'
+
+// 'null' 'with'
+
+// 'null' 'words'
+
+// 'null' '|'
+
+// 'null' '||'
+
+// 'null' '|}'
+
+// 'null' '}'
+
+// 'null' EOF
+
+// 'object'
+
+// 'object' '#'
+
+// 'object' '('
+
+// 'object' ':'
+
+// 'occurs'
+
+// 'of'
+
+// 'on'
+
+// 'only'
+
+// 'only' '#'
+
+// 'only' '('
+
+// 'only' ':'
+
+// 'option'
+
+// 'option' '#'
+
+// 'option' '('
+
+// 'option' ':'
+
+// 'or'
+
+// 'or' '#'
+
+// 'or' '('
+
+// 'or' ':'
+
+// 'order'
+
+// 'order' '#'
+
+// 'order' '('
+
+// 'order' ':'
+
+// 'ordered'
+
+// 'ordered' '#'
+
+// 'ordered' '('
+
+// 'ordered' ':'
+
+// 'ordered' '{'
+
+// 'ordering'
+
+// 'ordering' '#'
+
+// 'ordering' '('
+
+// 'ordering' ':'
+
+// 'paragraph'
+
+// 'paragraphs'
+
+// 'parent'
+
+// 'parent' '#'
+
+// 'parent' '('
+
+// 'parent' ':'
+
+// 'parent' '::'
+
+// 'pattern-separator'
+
+// 'per-mille'
+
+// 'percent'
+
+// 'phrase'
+
+// 'position'
+
+// 'preceding'
+
+// 'preceding' '#'
+
+// 'preceding' '('
+
+// 'preceding' ':'
+
+// 'preceding' '::'
+
+// 'preceding-sibling'
+
+// 'preceding-sibling' '#'
+
+// 'preceding-sibling' '('
+
+// 'preceding-sibling' ':'
+
+// 'preceding-sibling' '::'
+
+// 'preserve'
+
+// 'previous'
+
+// 'processing-instruction'
+
+// 'processing-instruction' '#'
+
+// 'processing-instruction' '('
+
+// 'processing-instruction' ':'
+
+// 'processing-instruction' 'allowing'
+
+// 'processing-instruction' 'ancestor'
+
+// 'processing-instruction' 'ancestor-or-self'
+
+// 'processing-instruction' 'append'
+
+// 'processing-instruction' 'attribute'
+
+// 'processing-instruction' 'base-uri'
+
+// 'processing-instruction' 'boundary-space'
+
+// 'processing-instruction' 'break'
+
+// 'processing-instruction' 'catch'
+
+// 'processing-instruction' 'child'
+
+// 'processing-instruction' 'comment'
+
+// 'processing-instruction' 'constraint'
+
+// 'processing-instruction' 'construction'
+
+// 'processing-instruction' 'context'
+
+// 'processing-instruction' 'continue'
+
+// 'processing-instruction' 'copy'
+
+// 'processing-instruction' 'copy-namespaces'
+
+// 'processing-instruction' 'decimal-format'
+
+// 'processing-instruction' 'declare'
+
+// 'processing-instruction' 'delete'
+
+// 'processing-instruction' 'descendant'
+
+// 'processing-instruction' 'descendant-or-self'
+
+// 'processing-instruction' 'document'
+
+// 'processing-instruction' 'document-node'
+
+// 'processing-instruction' 'element'
+
+// 'processing-instruction' 'empty-sequence'
+
+// 'processing-instruction' 'encoding'
+
+// 'processing-instruction' 'every'
+
+// 'processing-instruction' 'exit'
+
+// 'processing-instruction' 'external'
+
+// 'processing-instruction' 'false'
+
+// 'processing-instruction' 'first'
+
+// 'processing-instruction' 'following'
+
+// 'processing-instruction' 'following-sibling'
+
+// 'processing-instruction' 'from'
+
+// 'processing-instruction' 'ft-option'
+
+// 'processing-instruction' 'function'
+
+// 'processing-instruction' 'if'
+
+// 'processing-instruction' 'import'
+
+// 'processing-instruction' 'in'
+
+// 'processing-instruction' 'index'
+
+// 'processing-instruction' 'insert'
+
+// 'processing-instruction' 'integrity'
+
+// 'processing-instruction' 'item'
+
+// 'processing-instruction' 'json'
+
+// 'processing-instruction' 'jsoniq'
+
+// 'processing-instruction' 'last'
+
+// 'processing-instruction' 'lax'
+
+// 'processing-instruction' 'loop'
+
+// 'processing-instruction' 'module'
+
+// 'processing-instruction' 'namespace'
+
+// 'processing-instruction' 'namespace-node'
+
+// 'processing-instruction' 'node'
+
+// 'processing-instruction' 'nodes'
+
+// 'processing-instruction' 'null'
+
+// 'processing-instruction' 'object'
+
+// 'processing-instruction' 'option'
+
+// 'processing-instruction' 'ordered'
+
+// 'processing-instruction' 'ordering'
+
+// 'processing-instruction' 'parent'
+
+// 'processing-instruction' 'preceding'
+
+// 'processing-instruction' 'preceding-sibling'
+
+// 'processing-instruction' 'processing-instruction'
+
+// 'processing-instruction' 'rename'
+
+// 'processing-instruction' 'replace'
+
+// 'processing-instruction' 'returning'
+
+// 'processing-instruction' 'revalidation'
+
+// 'processing-instruction' 'schema'
+
+// 'processing-instruction' 'schema-attribute'
+
+// 'processing-instruction' 'schema-element'
+
+// 'processing-instruction' 'score'
+
+// 'processing-instruction' 'select'
+
+// 'processing-instruction' 'self'
+
+// 'processing-instruction' 'sliding'
+
+// 'processing-instruction' 'some'
+
+// 'processing-instruction' 'strict'
+
+// 'processing-instruction' 'switch'
+
+// 'processing-instruction' 'text'
+
+// 'processing-instruction' 'true'
+
+// 'processing-instruction' 'try'
+
+// 'processing-instruction' 'tumbling'
+
+// 'processing-instruction' 'type'
+
+// 'processing-instruction' 'typeswitch'
+
+// 'processing-instruction' 'unordered'
+
+// 'processing-instruction' 'updating'
+
+// 'processing-instruction' 'validate'
+
+// 'processing-instruction' 'value'
+
+// 'processing-instruction' 'variable'
+
+// 'processing-instruction' 'version'
+
+// 'processing-instruction' 'while'
+
+// 'processing-instruction' 'xquery'
+
+// 'processing-instruction' '{'
+
+// 'processing-instruction' NCName^Token
+
+// 'relationship'
+
+// 'rename'
+
+// 'rename' '#'
+
+// 'rename' '$$'
+
+// 'rename' '$'
+
+// 'rename' '%'
+
+// 'rename' '('
+
+// 'rename' ':'
+
+// 'rename' '<!--'
+
+// 'rename' '<'
+
+// 'rename' '<?'
+
+// 'rename' '['
+
+// 'rename' 'after'
+
+// 'rename' 'allowing'
+
+// 'rename' 'ancestor'
+
+// 'rename' 'ancestor-or-self'
+
+// 'rename' 'and'
+
+// 'rename' 'append'
+
+// 'rename' 'array'
+
+// 'rename' 'as'
+
+// 'rename' 'ascending'
+
+// 'rename' 'at'
+
+// 'rename' 'attribute'
+
+// 'rename' 'base-uri'
+
+// 'rename' 'before'
+
+// 'rename' 'boundary-space'
+
+// 'rename' 'break'
+
+// 'rename' 'case'
+
+// 'rename' 'cast'
+
+// 'rename' 'castable'
+
+// 'rename' 'catch'
+
+// 'rename' 'child'
+
+// 'rename' 'collation'
+
+// 'rename' 'comment'
+
+// 'rename' 'constraint'
+
+// 'rename' 'construction'
+
+// 'rename' 'context'
+
+// 'rename' 'continue'
+
+// 'rename' 'copy'
+
+// 'rename' 'copy-namespaces'
+
+// 'rename' 'count'
+
+// 'rename' 'decimal-format'
+
+// 'rename' 'declare'
+
+// 'rename' 'default'
+
+// 'rename' 'delete'
+
+// 'rename' 'descendant'
+
+// 'rename' 'descendant-or-self'
+
+// 'rename' 'descending'
+
+// 'rename' 'div'
+
+// 'rename' 'document'
+
+// 'rename' 'document-node'
+
+// 'rename' 'element'
+
+// 'rename' 'else'
+
+// 'rename' 'empty'
+
+// 'rename' 'empty-sequence'
+
+// 'rename' 'encoding'
+
+// 'rename' 'end'
+
+// 'rename' 'eq'
+
+// 'rename' 'every'
+
+// 'rename' 'except'
+
+// 'rename' 'exit'
+
+// 'rename' 'external'
+
+// 'rename' 'false'
+
+// 'rename' 'first'
+
+// 'rename' 'following'
+
+// 'rename' 'following-sibling'
+
+// 'rename' 'for'
+
+// 'rename' 'from'
+
+// 'rename' 'ft-option'
+
+// 'rename' 'function'
+
+// 'rename' 'ge'
+
+// 'rename' 'group'
+
+// 'rename' 'gt'
+
+// 'rename' 'idiv'
+
+// 'rename' 'if'
+
+// 'rename' 'import'
+
+// 'rename' 'in'
+
+// 'rename' 'index'
+
+// 'rename' 'insert'
+
+// 'rename' 'instance'
+
+// 'rename' 'integrity'
+
+// 'rename' 'intersect'
+
+// 'rename' 'into'
+
+// 'rename' 'is'
+
+// 'rename' 'item'
+
+// 'rename' 'json'
+
+// 'rename' 'json-item'
+
+// 'rename' 'jsoniq'
+
+// 'rename' 'last'
+
+// 'rename' 'lax'
+
+// 'rename' 'le'
+
+// 'rename' 'let'
+
+// 'rename' 'loop'
+
+// 'rename' 'lt'
+
+// 'rename' 'mod'
+
+// 'rename' 'modify'
+
+// 'rename' 'module'
+
+// 'rename' 'namespace'
+
+// 'rename' 'namespace-node'
+
+// 'rename' 'ne'
+
+// 'rename' 'node'
+
+// 'rename' 'nodes'
+
+// 'rename' 'null'
+
+// 'rename' 'object'
+
+// 'rename' 'only'
+
+// 'rename' 'option'
+
+// 'rename' 'or'
+
+// 'rename' 'order'
+
+// 'rename' 'ordered'
+
+// 'rename' 'ordering'
+
+// 'rename' 'parent'
+
+// 'rename' 'preceding'
+
+// 'rename' 'preceding-sibling'
+
+// 'rename' 'processing-instruction'
+
+// 'rename' 'rename'
+
+// 'rename' 'replace'
+
+// 'rename' 'return'
+
+// 'rename' 'returning'
+
+// 'rename' 'revalidation'
+
+// 'rename' 'satisfies'
+
+// 'rename' 'schema'
+
+// 'rename' 'schema-attribute'
+
+// 'rename' 'schema-element'
+
+// 'rename' 'score'
+
+// 'rename' 'select'
+
+// 'rename' 'self'
+
+// 'rename' 'sliding'
+
+// 'rename' 'some'
+
+// 'rename' 'stable'
+
+// 'rename' 'start'
+
+// 'rename' 'strict'
+
+// 'rename' 'structured-item'
+
+// 'rename' 'switch'
+
+// 'rename' 'text'
+
+// 'rename' 'to'
+
+// 'rename' 'treat'
+
+// 'rename' 'true'
+
+// 'rename' 'try'
+
+// 'rename' 'tumbling'
+
+// 'rename' 'type'
+
+// 'rename' 'typeswitch'
+
+// 'rename' 'union'
+
+// 'rename' 'unordered'
+
+// 'rename' 'updating'
+
+// 'rename' 'validate'
+
+// 'rename' 'value'
+
+// 'rename' 'variable'
+
+// 'rename' 'version'
+
+// 'rename' 'where'
+
+// 'rename' 'while'
+
+// 'rename' 'with'
+
+// 'rename' '{'
+
+// 'rename' '{|'
+
+// 'rename' DecimalLiteral
+
+// 'rename' DoubleLiteral
+
+// 'rename' EQName^Token
+
+// 'rename' IntegerLiteral
+
+// 'rename' StringLiteral
+
+// 'replace'
+
+// 'replace' '#'
+
+// 'replace' '('
+
+// 'replace' ':'
+
+// 'replace' 'node'
+
+// 'return'
+
+// 'return' '#'
+
+// 'return' '('
+
+// 'return' ':'
+
+// 'returning'
+
+// 'returning' '#'
+
+// 'returning' '('
+
+// 'returning' ':'
+
+// 'revalidation'
+
+// 'revalidation' '#'
+
+// 'revalidation' '('
+
+// 'revalidation' ':'
+
+// 'same'
+
+// 'satisfies'
+
+// 'satisfies' '#'
+
+// 'satisfies' '('
+
+// 'satisfies' ':'
+
+// 'schema'
+
+// 'schema' '#'
+
+// 'schema' '('
+
+// 'schema' ':'
+
+// 'schema-attribute'
+
+// 'schema-attribute' '#'
+
+// 'schema-attribute' '('
+
+// 'schema-attribute' ':'
+
+// 'schema-element'
+
+// 'schema-element' '#'
+
+// 'schema-element' '('
+
+// 'schema-element' ':'
+
+// 'score'
+
+// 'score' '#'
+
+// 'score' '('
+
+// 'score' ':'
+
+// 'select'
+
+// 'select' '#'
+
+// 'select' '('
+
+// 'select' ':'
+
+// 'self'
+
+// 'self' '#'
+
+// 'self' '('
+
+// 'self' ':'
+
+// 'self' '::'
+
+// 'sensitive'
+
+// 'sentence'
+
+// 'sentences'
+
+// 'skip'
+
+// 'sliding'
+
+// 'sliding' '#'
+
+// 'sliding' '('
+
+// 'sliding' ':'
+
+// 'some'
+
+// 'some' '#'
+
+// 'some' '$'
+
+// 'some' '('
+
+// 'some' ':'
+
+// 'stable'
+
+// 'stable' '#'
+
+// 'stable' '('
+
+// 'stable' ':'
+
+// 'start'
+
+// 'start' '#'
+
+// 'start' '('
+
+// 'start' ':'
+
+// 'stemming'
+
+// 'stop'
+
+// 'strict'
+
+// 'strict' '#'
+
+// 'strict' '('
+
+// 'strict' ':'
+
+// 'strip'
+
+// 'structured-item'
+
+// 'structured-item' '#'
+
+// 'structured-item' '('
+
+// 'switch'
+
+// 'switch' '#'
+
+// 'switch' '('
+
+// 'switch' ':'
+
+// 'text'
+
+// 'text' '#'
+
+// 'text' '('
+
+// 'text' ':'
+
+// 'text' '{'
+
+// 'then'
+
+// 'thesaurus'
+
+// 'times'
+
+// 'to'
+
+// 'to' '#'
+
+// 'to' '('
+
+// 'to' ':'
+
+// 'treat'
+
+// 'treat' '#'
+
+// 'treat' '('
+
+// 'treat' ':'
+
+// 'true'
+
+// 'true' '!'
+
+// 'true' '!='
+
+// 'true' '#'
+
+// 'true' '('
+
+// 'true' ')'
+
+// 'true' '*'
+
+// 'true' '+'
+
+// 'true' ','
+
+// 'true' '-'
+
+// 'true' '.'
+
+// 'true' '/'
+
+// 'true' '//'
+
+// 'true' ':'
+
+// 'true' ';'
+
+// 'true' '<'
+
+// 'true' '<<'
+
+// 'true' '<='
+
+// 'true' '='
+
+// 'true' '>'
+
+// 'true' '>='
+
+// 'true' '>>'
+
+// 'true' '['
+
+// 'true' ']'
+
+// 'true' 'after'
+
+// 'true' 'and'
+
+// 'true' 'as'
+
+// 'true' 'ascending'
+
+// 'true' 'at'
+
+// 'true' 'before'
+
+// 'true' 'by'
+
+// 'true' 'case'
+
+// 'true' 'cast'
+
+// 'true' 'castable'
+
+// 'true' 'collation'
+
+// 'true' 'contains'
+
+// 'true' 'count'
+
+// 'true' 'default'
+
+// 'true' 'descending'
+
+// 'true' 'div'
+
+// 'true' 'else'
+
+// 'true' 'empty'
+
+// 'true' 'end'
+
+// 'true' 'eq'
+
+// 'true' 'except'
+
+// 'true' 'for'
+
+// 'true' 'ge'
+
+// 'true' 'group'
+
+// 'true' 'gt'
+
+// 'true' 'idiv'
+
+// 'true' 'instance'
+
+// 'true' 'intersect'
+
+// 'true' 'into'
+
+// 'true' 'is'
+
+// 'true' 'le'
+
+// 'true' 'let'
+
+// 'true' 'lt'
+
+// 'true' 'mod'
+
+// 'true' 'modify'
+
+// 'true' 'ne'
+
+// 'true' 'only'
+
+// 'true' 'or'
+
+// 'true' 'order'
+
+// 'true' 'paragraphs'
+
+// 'true' 'return'
+
+// 'true' 'satisfies'
+
+// 'true' 'sentences'
+
+// 'true' 'stable'
+
+// 'true' 'start'
+
+// 'true' 'times'
+
+// 'true' 'to'
+
+// 'true' 'treat'
+
+// 'true' 'union'
+
+// 'true' 'where'
+
+// 'true' 'with'
+
+// 'true' 'words'
+
+// 'true' '|'
+
+// 'true' '||'
+
+// 'true' '|}'
+
+// 'true' '}'
+
+// 'true' EOF
+
+// 'try'
+
+// 'try' '#'
+
+// 'try' '('
+
+// 'try' ':'
+
+// 'try' '{'
+
+// 'tumbling'
+
+// 'tumbling' '#'
+
+// 'tumbling' '('
+
+// 'tumbling' ':'
+
+// 'type'
+
+// 'type' '#'
+
+// 'type' '('
+
+// 'type' ':'
+
+// 'typeswitch'
+
+// 'typeswitch' '#'
+
+// 'typeswitch' '('
+
+// 'typeswitch' ':'
+
+// 'union'
+
+// 'union' '#'
+
+// 'union' '('
+
+// 'union' ':'
+
+// 'unique'
+
+// 'unordered'
+
+// 'unordered' '#'
+
+// 'unordered' '('
+
+// 'unordered' ':'
+
+// 'unordered' '{'
+
+// 'updating'
+
+// 'updating' '#'
+
+// 'updating' '('
+
+// 'updating' ':'
+
+// 'uppercase'
+
+// 'using'
+
+// 'validate'
+
+// 'validate' '#'
+
+// 'validate' '('
+
+// 'validate' ':'
+
+// 'validate' 'lax'
+
+// 'validate' 'strict'
+
+// 'validate' 'type'
+
+// 'validate' '{'
+
+// 'value'
+
+// 'value' '#'
+
+// 'value' '('
+
+// 'value' ':'
+
+// 'variable'
+
+// 'variable' '#'
+
+// 'variable' '$'
+
+// 'variable' '('
+
+// 'variable' ':'
+
+// 'version'
+
+// 'version' '#'
+
+// 'version' '('
+
+// 'version' ':'
+
+// 'weight'
+
+// 'when'
+
+// 'where'
+
+// 'where' '#'
+
+// 'where' '('
+
+// 'where' ':'
+
+// 'while'
+
+// 'while' '#'
+
+// 'while' '('
+
+// 'while' ':'
+
+// 'wildcards'
+
+// 'window'
+
+// 'with'
+
+// 'with' '#'
+
+// 'with' '('
+
+// 'with' ':'
+
+// 'without'
+
+// 'words'
+
+// 'xquery'
+
+// 'xquery' '#'
+
+// 'xquery' '('
+
+// 'zero-digit'
+
+// '{'
+
+// '{' ';'
+
+// '{' NCName^Token
+
+// '{{'
+
+// '{|'
+
+// '|'
+
+// '||'
+
+// '|}'
+
+// '}'
+
+// '}}'
+
+// Annotation
+
+// AposAttrContentChar
+
+// AposChar
+
+// AttrTest
+
+// Because "require", "exports" and "module" aren't actual
+
+// But for all other dependencies, we can just go ahead and
+
+// CDataSection
+
+// CDataSectionContents
+
+// CDataSectionContents | EOF | ']]>'
+
+// CharRef
+
+// Collapse insert range.
+
+// CommentContents
+
+// CommentContents | EOF | '(:' | ':)'
+
+// DecimalLiteral
+
+// DirCommentContents
+
+// DirCommentContents | EOF | '-->'
+
+// DirPIContents
+
+// DirPIContents | EOF | '?' | '?>'
+
+// DocCommentContents
+
+// DocTag
+
+// DocTag | DocCommentContents | EOF | '(:' | ':)'
+
+// DoubleLiteral
+
+// EOF
+
+// EQName^Token
+
+// EQName^Token '#'
+
+// EQName^Token '('
+
+// EQName^Token | 'after' | 'allowing' | 'ancestor' | 'ancestor-or-self' | 'and' |
+
+// EQName^Token | IntegerLiteral | DecimalLiteral | DoubleLiteral | StringLiteral |
+
+// EQName^Token | S | 'after' | 'allowing' | 'ancestor' | 'ancestor-or-self' |
+
+// EQName^Token | S^WS | '#' | '(:' | ':' | 'after' | 'allowing' | 'ancestor' |
+
+// EQName^Token | S^WS | '#' | '(:' | 'after' | 'allowing' | 'ancestor' |
+
+// EQName^Token | S^WS | '$' | '%' | '(' | '(:' | 'after' | 'allowing' |
+
+// EQName^Token | S^WS | '%' | '(' | '(:' | ')' | 'after' | 'allowing' |
+
+// EQName^Token | S^WS | '%' | '(' | '(:' | 'after' | 'allowing' | 'ancestor' |
+
+// EQName^Token | S^WS | '(:' | ')' | '*' | 'after' | 'allowing' | 'ancestor' |
+
+// EQName^Token | S^WS | '(:' | 'after' | 'allowing' | 'ancestor' |
+
+// EQName^Token | S^WS | 'after' | 'allowing' | 'ancestor' | 'ancestor-or-self' |
+
+// EQName^Token | S^WS | EOF | '!' | '!=' | '#' | '(' | '(:' | ')' | '*' | '+' |
+
+// EQName^Token | S^WS | EOF | '!' | '!=' | '#' | '(' | '(:' | '*' | '+' | ',' |
+
+// ElementContentChar
+
+// EndTag
+
+// EscapeApos
+
+// EscapeQuot
+
+// If there is no dependencies, we inject "require", "exports" and
+
+// IntegerLiteral
+
+// IntegerLiteral | DecimalLiteral | DoubleLiteral | StringLiteral | S^WS | '(:'
+
+// IntegerLiteral | DecimalLiteral | DoubleLiteral | StringLiteral | S^WS | '(:' |
+
+// IntegerLiteral | S^WS | '(:'
+
+// JSONChar
+
+// JSONChar | JSONCharRef | JSONPredefinedCharRef | EOF | '"'
+
+// JSONCharRef
+
+// JSONPredefinedCharRef
+
+// ModuleDecl
+
+// ModuleDecl | Annotation | OptionDecl | Operator | Variable | Tag | AttrTest |
+
+// NCName^Token
+
+// NCName^Token | S^WS | '#' | '(' | '(:' | ':' | 'after' | 'allowing' |
+
+// NCName^Token | S^WS | '#' | '(' | '(:' | 'after' | 'allowing' | 'ancestor' |
+
+// NCName^Token | S^WS | '#' | '(:' | ':' | 'after' | 'allowing' | 'ancestor' |
+
+// NCName^Token | S^WS | '#' | '(:' | 'after' | 'allowing' | 'ancestor' |
+
+// NCName^Token | S^WS | '(:' | 'after' | 'allowing' | 'ancestor' |
+
+// NCName^Token | S^WS | 'after' | 'allowing' | 'ancestor' | 'ancestor-or-self' |
+
+// NCName^Token | S^WS | EOF | '!' | '!=' | '#' | '(' | '(:' | ')' | '*' | '+' |
+
+// NCName^Token | S^WS | EOF | '!' | '!=' | '#' | '(' | '(:' | '*' | '+' | ',' |
+
+// Operator
+
+// OptionDecl
+
+// PITarget
+
+// PragmaContents
+
+// PragmaContents | EOF | '#' | '#)'
+
+// PredefinedEntityRef
+
+// PredefinedEntityRef | EscapeApos | AposAttrContentChar | CharRef | EOF | "'" |
+
+// PredefinedEntityRef | EscapeApos | AposChar | CharRef | EOF | "'"
+
+// PredefinedEntityRef | EscapeQuot | QuotAttrContentChar | CharRef | EOF | '"' |
+
+// PredefinedEntityRef | EscapeQuot | QuotChar | CharRef | EOF | '"'
+
+// QName
+
+// QName | S | '/>' | '>'
+
+// QName | S^WS | EOF | '"' | "'" | '/>' | '=' | '>'
+
+// QuotAttrContentChar
+
+// QuotChar
+
+// S
+
+// S | '"' | "'"
+
+// S | '#)'
+
+// S | '='
+
+// S | '>'
+
+// S | '?>'
+
+// S^WS
+
+// S^WS | '!' | '!=' | '#' | '$' | '(' | '(:' | '*' | '+' | '-' | '/' | '//' | ';' |
+
+// S^WS | '!' | '!=' | '#' | '(' | '(:' | '*' | '+' | '-' | '.' | '/' | '//' | ':' |
+
+// S^WS | '!' | '!=' | '#' | '(' | '(:' | '*' | '+' | '-' | '/' | '//' | ';' | '<' |
+
+// S^WS | '#' | '$' | '(' | '(:'
+
+// S^WS | '#' | '$' | '(' | '(:' | ':'
+
+// S^WS | '#' | '$' | '(' | '(:' | ':' | 'score'
+
+// S^WS | '#' | '$' | '(' | '(:' | ':' | 'sliding' | 'tumbling'
+
+// S^WS | '#' | '$' | '(' | '(:' | 'score'
+
+// S^WS | '#' | '$' | '(' | '(:' | 'sliding' | 'tumbling'
+
+// S^WS | '#' | '%' | '(' | '(:' | 'base-uri' | 'boundary-space' | 'collection' |
+
+// S^WS | '#' | '(' | '(:'
+
+// S^WS | '#' | '(' | '(:' | ':'
+
+// S^WS | '#' | '(' | '(:' | ':' | 'lax' | 'strict' | 'type' | '{'
+
+// S^WS | '#' | '(' | '(:' | ':' | 'node' | 'value'
+
+// S^WS | '#' | '(' | '(:' | ':' | '{'
+
+// S^WS | '#' | '(' | '(:' | 'lax' | 'strict' | 'type' | '{'
+
+// S^WS | '#' | '(' | '(:' | 'loop'
+
+// S^WS | '#' | '(' | '(:' | 'module' | 'schema'
+
+// S^WS | '#' | '(' | '(:' | 'node' | 'value'
+
+// S^WS | '#' | '(' | '(:' | 'returning'
+
+// S^WS | '#' | '(' | '(:' | '{'
+
+// S^WS | '#' | '(:'
+
+// S^WS | '#' | '(:' | ':'
+
+// S^WS | '#' | '(:' | ':' | '{'
+
+// S^WS | '#' | '(:' | '{'
+
+// S^WS | '$' | '(:'
+
+// S^WS | '$' | '(:' | ')'
+
+// S^WS | '$' | '(:' | 'at' | 'next' | 'previous' | 'when'
+
+// S^WS | '$' | '(:' | 'foreach' | 'node'
+
+// S^WS | '$' | '(:' | 'return'
+
+// S^WS | '$' | '(:' | 'score'
+
+// S^WS | '%' | '(' | '(:' | 'collection' | 'function' | 'index' | 'integrity' |
+
+// S^WS | '(' | '(:'
+
+// S^WS | '(' | '(:' | 'at'
+
+// S^WS | '(' | '(:' | 'at' | 'default'
+
+// S^WS | '(:' | ')'
+
+// S^WS | '(:' | ')' | ','
+
+// S^WS | '(:' | ')' | ',' | 'as'
+
+// S^WS | '(:' | ')' | '?'
+
+// S^WS | '(:' | ')' | 'element' | 'schema-element'
+
+// S^WS | '(:' | '*'
+
+// S^WS | '(:' | '*' | '+' | ',' | ';' | '?' | 'collation'
+
+// S^WS | '(:' | '*' | '+' | ';' | '?'
+
+// S^WS | '(:' | ','
+
+// S^WS | '(:' | ',' | ':=' | ';'
+
+// S^WS | '(:' | ',' | ':=' | ';' | 'as'
+
+// S^WS | '(:' | ',' | ':=' | 'as' | 'collation' | 'count' | 'for' | 'group' |
+
+// S^WS | '(:' | ',' | ';' | 'collation'
+
+// S^WS | '(:' | ',' | 'collation' | 'count' | 'empty' | 'for' | 'group' | 'let' |
+
+// S^WS | '(:' | ',' | 'collation' | 'count' | 'for' | 'group' | 'let' | 'order' |
+
+// S^WS | '(:' | ':'
+
+// S^WS | '(:' | '::'
+
+// S^WS | '(:' | ':='
+
+// S^WS | '(:' | ':=' | ';'
+
+// S^WS | '(:' | ':=' | 'as'
+
+// S^WS | '(:' | ':=' | 'as' | 'external'
+
+// S^WS | '(:' | ':=' | 'external'
+
+// S^WS | '(:' | ';'
+
+// S^WS | '(:' | ';' | 'as'
+
+// S^WS | '(:' | ';' | 'at'
+
+// S^WS | '(:' | ';' | 'encoding'
+
+// S^WS | '(:' | '='
+
+// S^WS | '(:' | '['
+
+// S^WS | '(:' | ']'
+
+// S^WS | '(:' | 'allowing' | 'as' | 'at' | 'in' | 'score'
+
+// S^WS | '(:' | 'allowing' | 'at' | 'in' | 'score'
+
+// S^WS | '(:' | 'as'
+
+// S^WS | '(:' | 'as' | 'external' | '{'
+
+// S^WS | '(:' | 'as' | 'in'
+
+// S^WS | '(:' | 'as' | '{'
+
+// S^WS | '(:' | 'at'
+
+// S^WS | '(:' | 'at' | 'default'
+
+// S^WS | '(:' | 'at' | 'exactly' | 'from'
+
+// S^WS | '(:' | 'at' | 'in' | 'score'
+
+// S^WS | '(:' | 'at' | 'next' | 'previous' | 'when'
+
+// S^WS | '(:' | 'base-uri'
+
+// S^WS | '(:' | 'boundary-space'
+
+// S^WS | '(:' | 'by'
+
+// S^WS | '(:' | 'case'
+
+// S^WS | '(:' | 'case' | 'diacritics' | 'language' | 'lowercase' | 'no' |
+
+// S^WS | '(:' | 'catch'
+
+// S^WS | '(:' | 'check'
+
+// S^WS | '(:' | 'collation'
+
+// S^WS | '(:' | 'collection'
+
+// S^WS | '(:' | 'constraint'
+
+// S^WS | '(:' | 'construction'
+
+// S^WS | '(:' | 'content'
+
+// S^WS | '(:' | 'context'
+
+// S^WS | '(:' | 'copy-namespaces'
+
+// S^WS | '(:' | 'decimal-format'
+
+// S^WS | '(:' | 'decimal-format' | 'default'
+
+// S^WS | '(:' | 'default'
+
+// S^WS | '(:' | 'element'
+
+// S^WS | '(:' | 'element' | 'function'
+
+// S^WS | '(:' | 'else'
+
+// S^WS | '(:' | 'empty'
+
+// S^WS | '(:' | 'encoding' | 'version'
+
+// S^WS | '(:' | 'end'
+
+// S^WS | '(:' | 'end' | 'start'
+
+// S^WS | '(:' | 'external' | '{'
+
+// S^WS | '(:' | 'first' | 'last'
+
+// S^WS | '(:' | 'foreign' | 'on'
+
+// S^WS | '(:' | 'from'
+
+// S^WS | '(:' | 'ft-option'
+
+// S^WS | '(:' | 'greatest' | 'least'
+
+// S^WS | '(:' | 'in'
+
+// S^WS | '(:' | 'in' | 'score'
+
+// S^WS | '(:' | 'inherit' | 'no-inherit'
+
+// S^WS | '(:' | 'insensitive' | 'sensitive'
+
+// S^WS | '(:' | 'into'
+
+// S^WS | '(:' | 'item'
+
+// S^WS | '(:' | 'json'
+
+// S^WS | '(:' | 'key'
+
+// S^WS | '(:' | 'lax' | 'skip' | 'strict'
+
+// S^WS | '(:' | 'lax' | 'strict' | 'type' | '{'
+
+// S^WS | '(:' | 'least' | 'most'
+
+// S^WS | '(:' | 'levels'
+
+// S^WS | '(:' | 'loop'
+
+// S^WS | '(:' | 'module'
+
+// S^WS | '(:' | 'namespace'
+
+// S^WS | '(:' | 'next' | 'previous' | 'when'
+
+// S^WS | '(:' | 'next' | 'when'
+
+// S^WS | '(:' | 'no-preserve' | 'preserve'
+
+// S^WS | '(:' | 'node'
+
+// S^WS | '(:' | 'node' | 'nodes'
+
+// S^WS | '(:' | 'node' | 'value'
+
+// S^WS | '(:' | 'nodes'
+
+// S^WS | '(:' | 'of'
+
+// S^WS | '(:' | 'on'
+
+// S^WS | '(:' | 'option'
+
+// S^WS | '(:' | 'order'
+
+// S^WS | '(:' | 'ordered' | 'unordered'
+
+// S^WS | '(:' | 'ordering'
+
+// S^WS | '(:' | 'paragraph' | 'sentence'
+
+// S^WS | '(:' | 'position'
+
+// S^WS | '(:' | 'preserve' | 'strip'
+
+// S^WS | '(:' | 'return'
+
+// S^WS | '(:' | 'returning'
+
+// S^WS | '(:' | 'revalidation'
+
+// S^WS | '(:' | 'schema'
+
+// S^WS | '(:' | 'sliding' | 'tumbling'
+
+// S^WS | '(:' | 'stemming'
+
+// S^WS | '(:' | 'stop'
+
+// S^WS | '(:' | 'text'
+
+// S^WS | '(:' | 'then'
+
+// S^WS | '(:' | 'thesaurus'
+
+// S^WS | '(:' | 'to'
+
+// S^WS | '(:' | 'unique'
+
+// S^WS | '(:' | 'using'
+
+// S^WS | '(:' | 'value'
+
+// S^WS | '(:' | 'when'
+
+// S^WS | '(:' | 'wildcards'
+
+// S^WS | '(:' | 'window'
+
+// S^WS | '(:' | 'words'
+
+// S^WS | '(:' | '{'
+
+// S^WS | '(:' | '}'
+
+// S^WS | EOF | '!' | '!=' | '#' | '$' | '(' | '(:' | ')' | '*' | '+' | ',' | '-' |
+
+// S^WS | EOF | '!' | '!=' | '#' | '$' | '(' | '(:' | '*' | '+' | ',' | '-' | '/' |
+
+// S^WS | EOF | '!' | '!=' | '#' | '%' | '(' | '(:' | '*' | '+' | ',' | '-' | '/' |
+
+// S^WS | EOF | '!' | '!=' | '#' | '(' | '(:' | ')' | '*' | '+' | ',' | '-' | '.' |
+
+// S^WS | EOF | '!' | '!=' | '#' | '(' | '(:' | ')' | '*' | '+' | ',' | '-' | '/' |
+
+// S^WS | EOF | '!' | '!=' | '#' | '(' | '(:' | '*' | '+' | ',' | '-' | '.' | '/' |
+
+// S^WS | EOF | '!' | '!=' | '#' | '(' | '(:' | '*' | '+' | ',' | '-' | '/' | '//' |
+
+// S^WS | EOF | '!' | '!=' | '#' | '(:' | ')' | '*' | '+' | ',' | '-' | '/' | '//' |
+
+// S^WS | EOF | '!' | '!=' | '#' | '(:' | '*' | '+' | ',' | '-' | '/' | '//' | ';' |
+
+// S^WS | EOF | '!' | '!=' | '(' | '(:' | ')' | '*' | '+' | ',' | '-' | '/' | '//' |
+
+// S^WS | EOF | '!' | '!=' | '(' | '(:' | '*' | '+' | ',' | '-' | '.' | '/' | '//' |
+
+// S^WS | EOF | '!' | '!=' | '(' | '(:' | '*' | '+' | ',' | '-' | '/' | '//' | ';' |
+
+// S^WS | EOF | '!' | '!=' | '(:' | ')' | '*' | '+' | ',' | '-' | '/' | '//' | ':' |
+
+// S^WS | EOF | '!' | '!=' | '(:' | '*' | '+' | ',' | '-' | '/' | '//' | ';' | '<' |
+
+// S^WS | EOF | '!=' | '(' | '(:' | ')' | '*' | '*' | '+' | ',' | '-' | ':' | ':=' |
+
+// S^WS | EOF | '!=' | '(:' | ')' | '*' | '*' | '+' | ',' | '-' | ':' | ':=' | ';' |
+
+// S^WS | EOF | '!=' | '(:' | ')' | '*' | '+' | ',' | '-' | ':' | ';' | '<' | '<<' |
+
+// S^WS | EOF | '!=' | '(:' | ')' | ',' | ':' | ';' | '<' | '<<' | '<=' | '=' |
+
+// S^WS | EOF | '(:' | 'declare' | 'import'
+
+// StringLiteral
+
+// StringLiteral | NCName^Token | S^WS | '$' | '$$' | '(' | '(:' | 'after' |
+
+// StringLiteral | NCName^Token | S^WS | '(:' | ')' | 'after' | 'allowing' |
+
+// StringLiteral | S^WS | '(' | '(#' | '(:' | 'ftnot' | '{'
+
+// StringLiteral | S^WS | '(' | '(#' | '(:' | 'ftnot' | '{' | '}'
+
+// StringLiteral | S^WS | '(' | '(#' | '(:' | '{'
+
+// StringLiteral | S^WS | '(:'
+
+// Tag
+
+// Tag | EndTag | PredefinedEntityRef | ElementContentChar | CharRef | EOF |
+
+// URILiteral
+
+// URILiteral | S^WS | '(:'
+
+// URILiteral | S^WS | '(:' | 'default' | 'namespace'
+
+// URILiteral | S^WS | '(:' | 'namespace'
+
+// Variable
+
+// Wildcard
+
+// Wildcard | EQName^Token | IntegerLiteral | DecimalLiteral | DoubleLiteral |
+
+// Wildcard | EQName^Token | S^WS | '(:' | 'after' | 'allowing' | 'ancestor' |
+
+// dependencies, we must handle them seperately.
+
+// ensure we're not returning a negative index
+
+// normalize plugin requires
+
+// normalize relative requires
+
+// prevent infinite loop on broken modules
+
+// require them.
+
+//begin
+
+//input
+
+//name, end

@@ -1,0 +1,27 @@
+// "module" as dependencies, to provide CommonJS compatibility.
+
+// Because "require", "exports" and "module" aren't actual
+
+// But for all other dependencies, we can just go ahead and
+
+// Collapse insert range.
+
+// If there is no dependencies, we inject "require", "exports" and
+
+// The current character
+
+// The index of the current character
+
+// dependencies, we must handle them seperately.
+
+// empty array
+
+// empty object
+
+// normalize plugin requires
+
+// normalize relative requires
+
+// prevent infinite loop on broken modules
+
+// require them.

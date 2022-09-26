@@ -1,0 +1,103 @@
+/* TODO(caitp): remove W044 */
+
+/*optional*/
+
+// "module" as dependencies, to provide CommonJS compatibility.
+
+// $
+
+// $, _, A-Z, a-z
+
+// '!' followed by nothing? Give up.
+
+// 'typeof' followed by nothing? Give up.
+
+// 0-9
+
+// 0x
+
+// A length of a jump, after we're done
+
+// A-Z
+
+// All of the functions
+
+// Any character other than End Of Line
+
+// Because "require", "exports" and "module" aren't actual
+
+// But for all other dependencies, we can just go ahead and
+
+// Collapse insert range.
+
+// ES6 symbol
+
+// End Of Line
+
+// End of Line
+
+// EventTarget
+
+// Extension API
+
+// FIXME: Rephrase
+
+// Global variables defined by option
+
+// Globals that were declared using /*global ... */ syntax.
+
+// If there is no dependencies, we inject "require", "exports" and
+
+// No if statement or not the first statement in loop body
+
+// No more tokens left, give up
+
+// Node.JS doesn't have Map. Sniff.
+
+// Skip to the EOL.
+
+// Unhandled 'error' event
+
+// Variables that live outside the current file
+
+// We only need to analyze the first if inside the loop
+
+// WindowOrWorkerGlobalScope
+
+// _
+
+// `~
+
+// a-z
+
+// also does usage and label checks
+
+// array of start/end delimiters used to ignore
+
+// dependencies, we must handle them seperately.
+
+// empty string to avoid regexp issues
+
+// if one case switch statements should be allowed
+
+// if the . should not be allowed in regexp literals
+
+// in examples, but undocumented
+
+// normalize plugin requires
+
+// normalize relative requires
+
+// prevent infinite loop on broken modules
+
+// require them.
+
+// start/end ignoring lines of code, bypassing the lexer
+
+// this is the block after the params = function
+
+// v0.9.1+
+
+// v10.0.0+
+
+//?

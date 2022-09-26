@@ -1,0 +1,83 @@
+/* Object */
+
+/* string */
+
+// "module" as dependencies, to provide CommonJS compatibility.
+
+// && !('lineNumber' in locator)){
+
+// <!doctype,<![CDATA,<!--
+
+// <?...?>
+
+// Because "require", "exports" and "module" aren't actual
+
+// But for all other dependencies, we can just go ahead and
+
+// Collapse insert range.
+
+// If there is no dependencies, we inject "require", "exports" and
+
+// dependencies, we must handle them seperately.
+
+// normalize plugin requires
+
+// normalize relative requires
+
+// prevent infinite loop on broken modules
+
+// raises: NOT_FOUND_ERR,NO_MODIFICATION_ALLOWED_ERR
+
+// raises: WRONG_DOCUMENT_ERR,NO_MODIFICATION_ALLOWED_ERR,INUSE_ATTRIBUTE_ERR
+
+// raises:INVALID_CHARACTER_ERR,NAMESPACE_ERR
+
+// raises:INVALID_CHARACTER_ERR,NAMESPACE_ERR,WRONG_DOCUMENT_ERR
+
+// require them.
+
+//Compatible state
+
+//\u10000-\uEFFFF
+
+//appendChild and setAttributeNS are preformance key
+
+//attrName
+
+//closed el<el />
+
+//end document
+
+//equal
+
+//error
+
+//hack!!
+
+//has some bugs
+
+//ie8
+
+//important!!
+
+//java sax connect width xmldom on rhino(what about: "? && !(chars instanceof String)")
+
+//no prefix attribute has no namespace
+
+//normal
+
+//not space
+
+//raises
+
+//skip <
+
+//space
+
+//status
+
+//sure start with '<!'
+
+//tagName
+
+//}else{//text area

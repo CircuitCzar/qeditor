@@ -1,0 +1,159 @@
+/* ! */
+
+/* " */
+
+/* # */
+
+/* % */
+
+/* & */
+
+/* ' */
+
+/* * */
+
+/* + */
+
+/* , */
+
+/* - */
+
+/* . */
+
+/* / */
+
+/* 0 */
+
+/* 7 */
+
+/* 9 */
+
+/* : */
+
+/* < */
+
+/* > */
+
+/* ? */
+
+/* @ */
+
+/* A */
+
+/* BOM */
+
+/* CR */
+
+/* F */
+
+/* L */
+
+/* LF */
+
+/* N */
+
+/* P */
+
+/* Space */
+
+/* Tab */
+
+/* U */
+
+/* [ */
+
+/* \ */
+
+/* ] */
+
+/* _ */
+
+/* ` */
+
+/* a */
+
+/* b */
+
+/* e */
+
+/* f */
+
+/* high surrogate */
+
+/* low surrogate */
+
+/* n */
+
+/* r */
+
+/* t */
+
+/* u */
+
+/* v */
+
+/* x */
+
+/* { */
+
+/* | */
+
+/* } */
+
+/*, style*/
+
+// "module" as dependencies, to provide CommonJS compatibility.
+
+// 1: this>parent, 0: this=parent, -1: this<parent
+
+// Because "require", "exports" and "module" aren't actual
+
+// But for all other dependencies, we can just go ahead and
+
+// Collapse insert range.
+
+// If there is no dependencies, we inject "require", "exports" and
+
+// JS month starts with 0
+
+// Keep the result of `composeNode`.
+
+// Reading is done. Go to the epilogue.
+
+// Save the current line.
+
+// [11] tz_minute
+
+// `state.result` updated in resolver if matched
+
+// delta in mili-seconds
+
+// dependencies, we must handle them seperately.
+
+// derive end <= length-2
+
+// drop extra \n joiner
+
+// i.e. only if the scalar is not empty.
+
+// i.e. only if we have already read some scalar content.
+
+// integer, for fast access
+
+// milli-seconds
+
+// no 0-indent scalars
+
+// no hour
+
+// normalize plugin requires
+
+// normalize relative requires
+
+// note: the match index will always be <= length-2.
+
+// prevent infinite loop on broken modules
+
+// remove CR/LF & padding to simplify scan
+
+// require them.
