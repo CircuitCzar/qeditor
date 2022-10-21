@@ -1,5 +1,0 @@
-/* caption: Visualforce; extensions: component,page,vfp */
-
-/* global define */
-
-// lineCommentRegionStart

@@ -1,9 +1,0 @@
-// exit brace marker
-
-// exit in-braces block
-
-// exit razor block
-
-// lineCommentRegionStart
-
-// remove block type marker
