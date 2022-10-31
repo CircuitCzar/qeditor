@@ -1,0 +1,1 @@
+{"version":3,"file":"css/app.2fbba5dd5cf6b2889b49.css","mappings":"AAAA;IACI,SAAS;IACT,UAAU;AACd;AACA;IACI,gBAAgB;AACpB,C","sources":["webpack://dr_pe_questionnaire_editor/./src/global.css"],"sourcesContent":["* {\n    margin: 0;\n    padding: 0;\n}\nli {\n    list-style: none;\n}"],"names":[],"sourceRoot":""}
