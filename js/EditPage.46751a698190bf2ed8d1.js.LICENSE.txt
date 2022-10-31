@@ -158,6 +158,8 @@
 
 /* message.auto */
 
+/* message.right */
+
 /* qfvalidation */
 
 /* updateNode */
@@ -182,6 +184,10 @@
 
 /**
    * change kind
+   */
+
+/**
+   * class names
    */
 
 /**
@@ -273,6 +279,10 @@
    */
 
 /**
+   * reusable name
+   */
+
+/**
    * row column
    */
 
@@ -310,6 +320,10 @@
 
 /**
    * sign out
+   */
+
+/**
+   * status
    */
 
 /**
@@ -460,6 +474,10 @@
 
 /**
    * 选中的script的id
+   */
+
+/**
+   * 选中的复用列表ID
    */
 
 /**
@@ -621,6 +639,8 @@
 
 //             text: '',
 
+//         ...predefined,
+
 //         .execution as scriptType,
 
 //         0,
@@ -630,6 +650,10 @@
 //         const scriptContent = createScriptContent(script);
 
 //         item - desc.length * 2 - 1,
+
+//         members[member.id] = member;
+
+//         predefined.push(member.id);
 
 //         script as ImageElement,
 
@@ -647,11 +671,19 @@
 
 //     // Chrome requires returnValue to be set.
 
+//     // 插入group
+
 //     Element.isElement(res[i]) &&
 
 //     Toast('Script name existed');
 
+//     Toast(t('successTip'));
+
 //     ],
+
+//     ];
+
+//     _members.map((member) => {
 
 //     _scripts.push({ id: newScript.id, arguments: [] });
 
@@ -661,9 +693,21 @@
 
 //     children: [
 
+//     const _members = handleGetGroups(newReusableList);
+
+//     const newCurrentNode = JSON.parse(JSON.stringify(currentNode)) as QuestionNode;
+
+//     const newNodesSate = JSON.parse(JSON.stringify(nodesState));
+
 //     const script = (res[i] as unknown as { type: string; script: scriptType }).script;
 
 //     dimIndex={0}
+
+//     dispatch(eActions.setDisplayContentAction(displayTarget));
+
+//     dispatch(qActions.modifyNodeAction(newNodesSate, surveyKind));
+
+//     displayTarget.target = newCurrentNode;
 
 //     e.target.value = scriptName;
 
@@ -673,19 +717,37 @@
 
 //     event.returnValue = '';
 
+//     handleCancel && handleCancel();
+
+//     handleCodeExisted(unSelectReusable);
+
 //     if (script) {
 
 //     isEdit={false}
 
 //     key={index}
 
+//     modifyCurrentNodeList(newCurrentNode.id, newNodesSate, newCurrentNode, 'modify');
+
 //     more={false}
+
+//     newCurrentNode.structure.content.content.options[dimIndex].push(...newReusableList);
+
+//     newCurrentNode.structure.content.meta.grouped[dimIndex].members = { ...members };
+
+//     newCurrentNode.structure.content.meta.grouped[dimIndex].randomized.order.predefined = [
+
+//     return false;
 
 //     return;
 
 //     reusableList={options}
 
 //     script: (newArr[item] as ScriptContent).content
+
+//     setErrorMsg('This field should be unique');
+
+//     setErrorMsg(res.msg);
 
 //     type: 'script',
 
@@ -709,9 +771,23 @@
 
 //     }),
 
+//     });
+
 // ) {
 
 // );
+
+// // 克隆reusable列表
+
+// // 判断是否有重复
+
+// // 插入复用列表
+
+// // 是否重名
+
+// // 获取选中的reusable 列表
+
+// // 过滤已选中的 reusable
 
 // />
 
@@ -723,6 +799,10 @@
 
 // CONCATENATED MODULE: ./src/Components/AddButton/style.scss
 
+// CONCATENATED MODULE: ./src/Components/CaseCader/Components/CaseCaderItem/index.tsx
+
+// CONCATENATED MODULE: ./src/Components/CaseCader/index.tsx
+
 // CONCATENATED MODULE: ./src/Components/CodeInput/index.tsx
 
 // CONCATENATED MODULE: ./src/Components/CodeInput/style.scss
@@ -732,6 +812,12 @@
 // CONCATENATED MODULE: ./src/Components/Collapse/style.scss
 
 // CONCATENATED MODULE: ./src/Components/DropDownV3/index.tsx
+
+// CONCATENATED MODULE: ./src/Components/Empty/index.tsx
+
+// CONCATENATED MODULE: ./src/Components/Empty/style.scss
+
+// CONCATENATED MODULE: ./src/Components/Input/index.tsx
 
 // CONCATENATED MODULE: ./src/Components/Modal/index.tsx
 
@@ -861,8 +947,6 @@
 
 // CONCATENATED MODULE: ./src/Pages/EditPage/Main/Content/NodeContent/QuestionNodeEdit/Components/QuestionOptionItem/style.scss
 
-// CONCATENATED MODULE: ./src/Pages/EditPage/Main/Content/NodeContent/QuestionNodeEdit/Components/QuestionOptions/index.tsx
-
 // CONCATENATED MODULE: ./src/Pages/EditPage/Main/Content/NodeContent/QuestionNodeEdit/Components/QuestionReusable/index.tsx
 
 // CONCATENATED MODULE: ./src/Pages/EditPage/Main/Content/NodeContent/QuestionNodeEdit/Components/QuestionReusable/style.scss
@@ -934,6 +1018,18 @@
 // CONCATENATED MODULE: ./src/Pages/EditPage/Modals/DeleteNodeModal/index.tsx
 
 // CONCATENATED MODULE: ./src/Pages/EditPage/Modals/DeleteNodeModal/style.scss
+
+// CONCATENATED MODULE: ./src/Pages/EditPage/Modals/GroupSettingsModal/index.tsx
+
+// CONCATENATED MODULE: ./src/Pages/EditPage/Modals/ImportReusableModal/index.tsx
+
+// CONCATENATED MODULE: ./src/Pages/EditPage/Modals/OptionPropertyModal/index.tsx
+
+// CONCATENATED MODULE: ./src/Pages/EditPage/Modals/OptionPropertyModal/style.scss
+
+// CONCATENATED MODULE: ./src/Pages/EditPage/Modals/SaveReusableModal/index.tsx
+
+// CONCATENATED MODULE: ./src/Pages/EditPage/Modals/SaveReusableModal/style.scss
 
 // CONCATENATED MODULE: ./src/Pages/EditPage/Navigation/index.tsx
 
@@ -1015,9 +1111,15 @@
 
 // const column = [
 
+// const isRepeat = questionUtils.isCodesRepeat(newReusableList, options);
+
 // const isUniQue = checkScriptsNameUnique(scriptsState, _scriptName.trim());
 
+// const isUnique = checkReusableListNameUnique(reusable, reusableName);
+
 // const name = `${Math.round(Math.random() * 1000000)}script`;
+
+// const newReusableList = JSON.parse(JSON.stringify(reusableList)) as OptionList[];
 
 // const newScript = getCustomisedScript(name);
 
@@ -1029,11 +1131,17 @@
 
 // const options = [
 
+// const res = inputValidation(reusableName);
+
+// const reusableList = unSelectReusable.map((item) => reusable[item].data);
+
 // const row = [
 
 // const script = {
 
 // const state = useQuestionListSelector();
+
+// const unSelectReusable = selectReusable.filter((item) => !reusableListIds.includes(item));
 
 // dispatch(
 
@@ -1057,7 +1165,13 @@
 
 // if (
 
+// if (!isRepeat) {
+
 // if (!isUniQue || !_scriptName.trim()) {
+
+// if (!isUnique) {
+
+// if (!res.status) {
 
 // if (children[(item - desc.length * 2 - 1, 0)]) {
 
@@ -1075,19 +1189,15 @@
 
 // setArgumentState(true);
 
+// setErrorMsg('');
+
 // setReusableId(item.id);
 
 // setSearchCondition({ isStar: !!value, currentPage: 1 });
 
 // setSelectId(index);
 
-// setShowDimConfig(true);
-
 // setShowEditCode(true);
-
-// setShowImportReusable(true);
-
-// setShowSaveReusableList(true);
 
 // setShowTransitionReusable(true);
 
@@ -1111,6 +1221,8 @@
 
 // 从根元素中删除此节点
 
+// 修改随机
+
 // 修改颜色
 
 // 元素列表中删除
@@ -1126,6 +1238,8 @@
 // 判断是否是根元素
 
 // 判断根列表长度
+
+// 取消随机
 
 // 插入node
 
@@ -1146,6 +1260,8 @@
 // 根节点
 
 // 检查节点是否错误
+
+// 没有输入
 
 // 添加member
 
