@@ -168,6 +168,8 @@
 
 /* updateOrder */
 
+/* updateReusable */
+
 /* updateReusableItem */
 
 /* useFocused */
@@ -339,6 +341,10 @@
    */
 
 /**
+   * 修改code
+   */
+
+/**
    * 列groups
    */
 
@@ -372,6 +378,10 @@
 
 /**
    * 判断是否输入中文
+   */
+
+/**
+   * 复用列表
    */
 
 /**
@@ -639,8 +649,6 @@
 
 //             text: '',
 
-//         ...predefined,
-
 //         .execution as scriptType,
 
 //         0,
@@ -650,10 +658,6 @@
 //         const scriptContent = createScriptContent(script);
 
 //         item - desc.length * 2 - 1,
-
-//         members[member.id] = member;
-
-//         predefined.push(member.id);
 
 //         script as ImageElement,
 
@@ -671,19 +675,11 @@
 
 //     // Chrome requires returnValue to be set.
 
-//     // 插入group
-
 //     Element.isElement(res[i]) &&
 
 //     Toast('Script name existed');
 
-//     Toast(t('successTip'));
-
 //     ],
-
-//     ];
-
-//     _members.map((member) => {
 
 //     _scripts.push({ id: newScript.id, arguments: [] });
 
@@ -693,21 +689,9 @@
 
 //     children: [
 
-//     const _members = handleGetGroups(newReusableList);
-
-//     const newCurrentNode = JSON.parse(JSON.stringify(currentNode)) as QuestionNode;
-
-//     const newNodesSate = JSON.parse(JSON.stringify(nodesState));
-
 //     const script = (res[i] as unknown as { type: string; script: scriptType }).script;
 
 //     dimIndex={0}
-
-//     dispatch(eActions.setDisplayContentAction(displayTarget));
-
-//     dispatch(qActions.modifyNodeAction(newNodesSate, surveyKind));
-
-//     displayTarget.target = newCurrentNode;
 
 //     e.target.value = scriptName;
 
@@ -717,37 +701,19 @@
 
 //     event.returnValue = '';
 
-//     handleCancel && handleCancel();
-
-//     handleCodeExisted(unSelectReusable);
-
 //     if (script) {
 
 //     isEdit={false}
 
 //     key={index}
 
-//     modifyCurrentNodeList(newCurrentNode.id, newNodesSate, newCurrentNode, 'modify');
-
 //     more={false}
-
-//     newCurrentNode.structure.content.content.options[dimIndex].push(...newReusableList);
-
-//     newCurrentNode.structure.content.meta.grouped[dimIndex].members = { ...members };
-
-//     newCurrentNode.structure.content.meta.grouped[dimIndex].randomized.order.predefined = [
-
-//     return false;
 
 //     return;
 
 //     reusableList={options}
 
 //     script: (newArr[item] as ScriptContent).content
-
-//     setErrorMsg('This field should be unique');
-
-//     setErrorMsg(res.msg);
 
 //     type: 'script',
 
@@ -771,23 +737,9 @@
 
 //     }),
 
-//     });
-
 // ) {
 
 // );
-
-// // 克隆reusable列表
-
-// // 判断是否有重复
-
-// // 插入复用列表
-
-// // 是否重名
-
-// // 获取选中的reusable 列表
-
-// // 过滤已选中的 reusable
 
 // />
 
@@ -991,6 +943,8 @@
 
 // CONCATENATED MODULE: ./src/Pages/EditPage/Main/Content/NodeContent/Utilities/tags.tsx
 
+// CONCATENATED MODULE: ./src/Pages/EditPage/Main/Content/ReusableContent/ReusableEdit/index.tsx
+
 // CONCATENATED MODULE: ./src/Pages/EditPage/Main/Content/ReusableContent/ReusableItem/index.tsx
 
 // CONCATENATED MODULE: ./src/Pages/EditPage/Main/Content/index.tsx
@@ -1015,6 +969,12 @@
 
 // CONCATENATED MODULE: ./src/Pages/EditPage/Modals/AddNodeModal/style.scss
 
+// CONCATENATED MODULE: ./src/Pages/EditPage/Modals/CodeExistedModal/Components/CodeInput/index.tsx
+
+// CONCATENATED MODULE: ./src/Pages/EditPage/Modals/CodeExistedModal/Components/CodeInput/style.scss
+
+// CONCATENATED MODULE: ./src/Pages/EditPage/Modals/CodeExistedModal/index.tsx
+
 // CONCATENATED MODULE: ./src/Pages/EditPage/Modals/DeleteNodeModal/index.tsx
 
 // CONCATENATED MODULE: ./src/Pages/EditPage/Modals/DeleteNodeModal/style.scss
@@ -1026,8 +986,6 @@
 // CONCATENATED MODULE: ./src/Pages/EditPage/Modals/OptionPropertyModal/index.tsx
 
 // CONCATENATED MODULE: ./src/Pages/EditPage/Modals/OptionPropertyModal/style.scss
-
-// CONCATENATED MODULE: ./src/Pages/EditPage/Modals/SaveReusableModal/index.tsx
 
 // CONCATENATED MODULE: ./src/Pages/EditPage/Modals/SaveReusableModal/style.scss
 
@@ -1083,6 +1041,8 @@
 
 // EXTERNAL MODULE: ./node_modules/@possie-engine/dr_front_corecomponentlibrary/index.ts + 16 modules
 
+// EXTERNAL MODULE: ./node_modules/@possie-engine/dr_front_surveyconfig/Class/Node/NodeClass.ts
+
 // EXTERNAL MODULE: ./node_modules/@possie-engine/dr_front_surveyconfig/index.ts + 3 modules
 
 // EXTERNAL MODULE: ./node_modules/react/index.js
@@ -1099,27 +1059,21 @@
 
 // EXTERNAL MODULE: ./src/Store/nodesState/actions.ts
 
-// EXTERNAL MODULE: ./src/Store/reusableState/actions.ts
-
 // EXTERNAL MODULE: ./src/Util/nodeUtil/constance.ts
 
 // ];
 
 // codes,
 
+// code重复打开code修改窗口
+
 // console.log('&&&&&&&&&');
 
 // const column = [
 
-// const isRepeat = questionUtils.isCodesRepeat(newReusableList, options);
-
 // const isUniQue = checkScriptsNameUnique(scriptsState, _scriptName.trim());
 
-// const isUnique = checkReusableListNameUnique(reusable, reusableName);
-
 // const name = `${Math.round(Math.random() * 1000000)}script`;
-
-// const newReusableList = JSON.parse(JSON.stringify(reusableList)) as OptionList[];
 
 // const newScript = getCustomisedScript(name);
 
@@ -1131,17 +1085,11 @@
 
 // const options = [
 
-// const res = inputValidation(reusableName);
-
-// const reusableList = unSelectReusable.map((item) => reusable[item].data);
-
 // const row = [
 
 // const script = {
 
 // const state = useQuestionListSelector();
-
-// const unSelectReusable = selectReusable.filter((item) => !reusableListIds.includes(item));
 
 // dispatch(
 
@@ -1165,13 +1113,7 @@
 
 // if (
 
-// if (!isRepeat) {
-
 // if (!isUniQue || !_scriptName.trim()) {
-
-// if (!isUnique) {
-
-// if (!res.status) {
 
 // if (children[(item - desc.length * 2 - 1, 0)]) {
 
@@ -1188,8 +1130,6 @@
 // newScriptsState[newScript.id] = { name: name, data: newScript };
 
 // setArgumentState(true);
-
-// setErrorMsg('');
 
 // setReusableId(item.id);
 
@@ -1227,6 +1167,8 @@
 
 // 元素列表中删除
 
+// 克隆reusable列表
+
 // 初始化logic
 
 // 删除member
@@ -1241,13 +1183,19 @@
 
 // 取消随机
 
+// 插入group
+
 // 插入node
+
+// 插入复用列表
 
 // 整个问题的逻辑
 
 // 是questionNode
 
 // 是否是有效的输入
+
+// 是否重名
 
 // 有父节点
 
@@ -1267,7 +1215,11 @@
 
 // 清空值
 
+// 获取选中的reusable 列表
+
 // 要删除的node
+
+// 过滤已选中的 reusable
 
 // 选项的逻辑
 

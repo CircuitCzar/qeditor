@@ -10,6 +10,8 @@
 
 /* .ACTION_TYPE.UPDATE_ORDER */
 
+/* .ACTION_TYPE.UPDATE_REUSABLE */
+
 /* .ACTION_TYPE.UPDATE_REUSABLE_ITEM */
 
 /* .COMMENT_NODE_KINDS.includes */
@@ -108,7 +110,7 @@
 
 /* isQuestionNode */
 
-/* unused harmony exports initReusableSaga, updateReusable */
+/* unused harmony export initReusableSaga */
 
 /* unused harmony exports isBlockNode, isExecutionNode, isMarkNode, isQuotaNode, isDisplayNode, isExitNode, isScriptContent */
 
